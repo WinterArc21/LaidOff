@@ -298,15 +298,23 @@ let friendResult = null; // Stores a friend's result for comparison mode
 // =============================================
 // ASSESSMENT COUNTER (Feature 3)
 // =============================================
-const COUNTER_SEED = 14287; // Starting seed so it looks populated
-let _assessmentSessionCount = 0; // In-memory session counter
+const COUNTER_STORAGE_KEY = 'laidoff-assessment-count';
+const COUNTER_INITIAL = 56;
 
 function getAssessmentCount() {
-  return COUNTER_SEED + _assessmentSessionCount;
+  try {
+    const stored = localStorage.getItem(COUNTER_STORAGE_KEY);
+    return stored ? parseInt(stored, 10) : COUNTER_INITIAL;
+  } catch {
+    return COUNTER_INITIAL;
+  }
 }
 
 function incrementAssessmentCount() {
-  _assessmentSessionCount++;
+  const next = getAssessmentCount() + 1;
+  try {
+    localStorage.setItem(COUNTER_STORAGE_KEY, String(next));
+  } catch (_) {}
   updateCounterDisplay();
 }
 
@@ -316,19 +324,6 @@ function updateCounterDisplay() {
   document.querySelectorAll('.live-counter-number').forEach(el => {
     el.textContent = formatted;
   });
-}
-
-// Simulate real-time activity: increment counter randomly every 8-15 seconds
-function startCounterSimulation() {
-  function scheduleNextIncrement() {
-    const delay = 8000 + Math.random() * 7000; // 8-15 seconds
-    setTimeout(() => {
-      _assessmentSessionCount++;
-      updateCounterDisplay();
-      scheduleNextIncrement();
-    }, delay);
-  }
-  scheduleNextIncrement();
 }
 
 function animateCounter(el, target) {
@@ -1548,9 +1543,6 @@ document.addEventListener('DOMContentLoaded', () => {
   updateCounterDisplay();
   const counterEls = document.querySelectorAll('.live-counter-number');
   counterEls.forEach(el => animateCounter(el, getAssessmentCount()));
-
-  // Start simulated real-time counter increments
-  startCounterSimulation();
 
   // Try to load from URL params (shared result)
   if (window.location.search) {

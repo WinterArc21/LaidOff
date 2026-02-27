@@ -1,2 +1,5 @@
-# ai-job-doomsday-simulator
-AI Job Doomsday Simulator 2027 — Enter your job details and discover how AI might impact your role by 2027. Generates survival probability, salary projections, skill recommendations, and branching future scenarios based on real research data from OpenAI, WEF, Goldman Sachs, McKinsey, IMF, and more.
+# Will AI Take My Job?
+
+An evidence-based career risk assessment that estimates how AI will impact your role. Enter your job details and get an AI resilience score, risk assessment, scenario breakdown, and skill recommendations — powered by research from OpenAI, the World Economic Forum, Goldman Sachs, McKinsey, and 15+ institutional sources.
+
+**Live:** [laidoff.vercel.app](https://laidoff.vercel.app)
