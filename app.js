@@ -302,7 +302,6 @@ function showPage(page) {
   const pageMap = {
     landing: 'landing',
     form: 'form-page',
-    loading: 'loading-page',
     results: 'results-page',
     leaderboard: 'leaderboard-page'
   };
@@ -536,49 +535,6 @@ function calculateSurvival(jobTitle, experience, industry, seniority, aiUsage) {
 }
 
 // =============================================
-// LOADING SEQUENCE (simplified)
-// =============================================
-const LOADING_MESSAGES = [
-  'Identifying role category\u2026',
-  'Cross-referencing disruption research\u2026',
-  'Applying experience and seniority modifiers\u2026',
-  'Generating scenario probabilities\u2026'
-];
-
-function runLoadingSequence(callback) {
-  showPage('loading');
-
-  let msgIndex = 0;
-  const statusEl = document.getElementById('loadingStatus');
-  const msgs = document.querySelectorAll('.load-msg');
-
-  // Reset
-  msgs.forEach(m => m.classList.remove('active', 'done'));
-
-  function advanceMessage() {
-    if (msgIndex > 0 && msgs[msgIndex - 1]) {
-      msgs[msgIndex - 1].classList.remove('active');
-      msgs[msgIndex - 1].classList.add('done');
-    }
-    if (msgIndex < msgs.length) {
-      if (msgs[msgIndex]) msgs[msgIndex].classList.add('active');
-      if (statusEl) statusEl.textContent = LOADING_MESSAGES[msgIndex] || 'Analyzing\u2026';
-      msgIndex++;
-      if (msgIndex <= msgs.length) {
-        setTimeout(advanceMessage, 750);
-      }
-    } else {
-      // All done \u2014 mark last done
-      msgs.forEach(m => { m.classList.remove('active'); m.classList.add('done'); });
-      if (statusEl) statusEl.textContent = 'Assessment complete.';
-      setTimeout(callback, 500);
-    }
-  }
-
-  setTimeout(advanceMessage, 200);
-}
-
-// =============================================
 // RUN ANALYSIS
 // =============================================
 function runAnalysis() {
@@ -638,12 +594,10 @@ function runAnalysis() {
   // Add to leaderboard
   addToLeaderboard(analysisResult);
 
-  // Show loading then results
-  runLoadingSequence(() => {
-    buildResults(analysisResult);
-    showPage('results');
-    animateResults();
-  });
+  // Show results directly (loading page removed)
+  buildResults(analysisResult);
+  showPage('results');
+  animateResults();
 }
 
 // =============================================

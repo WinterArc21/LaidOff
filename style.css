@@ -357,6 +357,7 @@ a:hover { color: var(--terracotta); }
   color: var(--muted);
   font-size: 0.8125rem;
 }
+.footer-disclaimer { margin-bottom: 12px; }
 .footer-sources { margin-top: 6px; }
 
 /* ---- FORM PAGE ---- */
@@ -694,96 +695,6 @@ a:hover { color: var(--terracotta); }
 .validation-close:hover {
   opacity: 1;
 }
-
-/* ---- LOADING PAGE ---- */
-#loading-page {
-  background: var(--cream-light);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#loading-page.active { display: flex; }
-
-.loading-container {
-  text-align: center;
-  padding: 40px;
-  max-width: 420px;
-}
-
-.loading-logo {
-  font-family: var(--font-serif);
-  font-size: 0.9375rem;
-  font-weight: 600;
-  color: var(--muted);
-  letter-spacing: 0.05em;
-  margin-bottom: 40px;
-}
-
-.loading-spinner {
-  width: 80px;
-  height: 80px;
-  margin: 0 auto 28px;
-}
-
-.spinner-ring {
-  width: 80px;
-  height: 80px;
-}
-
-.spinner-arc {
-  animation: spinnerRotate 1.4s linear infinite;
-  transform-origin: center;
-}
-
-@keyframes spinnerRotate {
-  from { stroke-dashoffset: 163; }
-  to   { stroke-dashoffset: -163; }
-}
-
-.loading-status {
-  font-size: 1.0625rem;
-  font-weight: 600;
-  color: var(--charcoal);
-  margin-bottom: 24px;
-  font-family: var(--font-serif);
-  font-style: italic;
-}
-
-.loading-messages {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  text-align: left;
-  background: var(--cream);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 20px 24px;
-}
-
-.load-msg {
-  font-size: 0.8125rem;
-  color: var(--muted);
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  transition: color 0.3s;
-}
-.load-msg::before {
-  content: '○';
-  font-size: 0.7rem;
-  color: var(--border);
-  flex-shrink: 0;
-  transition: color 0.3s;
-}
-.load-msg.active {
-  color: var(--charcoal);
-  font-weight: 600;
-}
-.load-msg.active::before { content: '◉'; color: var(--terracotta); }
-.load-msg.done {
-  color: var(--sage);
-}
-.load-msg.done::before { content: '●'; color: var(--sage); }
 
 /* ---- RESULTS ---- */
 .results-header {
