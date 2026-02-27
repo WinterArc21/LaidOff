@@ -967,26 +967,21 @@ function buildShareCard(r) {
 
   const industry = r.industry || 'General';
   const topSkills = (RESEARCH.skillsByIndustry[industry] || RESEARCH.skillsByIndustry.Other).skills.slice(0, 3).join(', ');
-  const shockStat = getShockStat(r);
 
-  const shareText =
-    `AI Resilience Score: ${r.score}% — ${r.jobTitle} (${industry})
+  const resultBlock = `AI Resilience Score: ${r.score}% — ${r.jobTitle} (${industry})
 Risk Assessment: ${r.threatLevel}
 Most Likely Outcome: ${likelyScenario} (${maxProb}%)
-Recommended Skills: ${topSkills}
+Recommended Skills: ${topSkills}`;
 
-${shockStat.stat}
-
-Assessed using "Will AI Take My Job?" — evidence-based career analysis from WEF, Goldman Sachs, McKinsey & OpenAI research.
-laidoff.vercel.app`;
+  const shareText = `${resultBlock}\n\nlaidoff.vercel.app`;
 
   document.getElementById('shareContent').textContent = shareText;
   window._shareText = shareText;
   window._shareResult = r;
 
-  // Build social share tweet/linkedin text
+  // Build social share tweet/linkedin text (same content: result + url)
   const SITE_URL = 'https://laidoff.vercel.app';
-  const tweetText = encodeURIComponent(`My ${r.jobTitle} job has a ${r.score}% AI resilience score — ${r.threatLevel}. Check yours 👇`);
+  const tweetText = encodeURIComponent(resultBlock);
   const shareUrl = encodeURIComponent(SITE_URL);
   const twitterUrl = `https://twitter.com/intent/tweet?text=${tweetText}&url=${shareUrl}`;
   const linkedinUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}`;
