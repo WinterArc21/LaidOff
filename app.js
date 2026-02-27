@@ -654,7 +654,6 @@ function buildResults(r) {
   // Build sub-sections
   buildFutures(r);
   buildSkills(r);
-  buildQuotes();
   buildShareCard(r);
 
   // Store for chart
@@ -1168,6 +1167,7 @@ function filterLeaderboard(mode, btn) {
 // =============================================
 document.addEventListener('DOMContentLoaded', () => {
   initLeaderboard();
+  buildQuotes(); // Expert perspectives on homepage
 
   // Initialize slider
   const slider = document.getElementById('experience');
