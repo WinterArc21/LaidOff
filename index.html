@@ -4,9 +4,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI Job Impact Analyzer — Evidence-Based Career Assessment</title>
+  <title>Will AI Take My Job? — Free Career Risk Assessment</title>
   <meta name="description"
     content="An evidence-based assessment of how AI will impact your career, powered by research from OpenAI, WEF, Goldman Sachs, and McKinsey." />
+  <meta property="og:title" content="Will AI Take My Job? — Free Career Risk Assessment">
+  <meta property="og:description" content="80% of US workers will be affected by AI. Find out where you stand with this evidence-based assessment powered by research from OpenAI, WEF, and Goldman Sachs.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://laidoff.vercel.app">
+  <meta property="og:image" content="https://laidoff.vercel.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Will AI Take My Job? — Free Career Risk Assessment">
+  <meta name="twitter:description" content="300M jobs at risk globally. Check your AI resilience score in 60 seconds.">
+  <meta name="twitter:image" content="https://laidoff.vercel.app/og-image.png">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -22,7 +33,7 @@
 
     <header class="site-header">
       <div class="header-inner">
-        <div class="site-brand">AI Job Impact Analyzer</div>
+        <div class="site-brand">Will AI Take My Job?</div>
         <nav class="site-nav">
           <a href="#" onclick="showPage('form'); return false;">Take Assessment</a>
           <a href="#" onclick="showPage('leaderboard'); return false;">How Roles Compare</a>
@@ -33,7 +44,7 @@
     <section class="hero">
       <div class="hero-inner">
         <div class="hero-eyebrow">Evidence-Based Career Assessment</div>
-        <h1 class="hero-title">How Will AI Impact<br>Your Career?</h1>
+        <h1 class="hero-title">Will AI Take<br>Your Job?</h1>
         <p class="hero-subtitle">An independent assessment powered by research from OpenAI, the World Economic Forum,
           Goldman Sachs, McKinsey &amp; Company, and 15+ institutional sources.</p>
 
@@ -69,7 +80,7 @@
           <div class="live-counter">
             <span class="live-counter-dot"></span>
             <span class="live-counter-number">14,287</span>
-            <span class="live-counter-label">assessments completed</span>
+            <span class="live-counter-label">people have checked their AI risk</span>
           </div>
         </div>
       </div>
@@ -201,7 +212,7 @@
 
     <header class="site-header">
       <div class="header-inner">
-        <div class="site-brand"><a href="#" onclick="showPage('landing'); return false;">AI Job Impact Analyzer</a>
+        <div class="site-brand"><a href="#" onclick="showPage('landing'); return false;">Will AI Take My Job?</a>
         </div>
         <nav class="site-nav">
           <a href="#" onclick="showPage('landing'); return false;">← Back</a>
@@ -340,7 +351,7 @@
     <div class="results-header">
       <div class="results-header-inner">
         <div class="results-header-left">
-          <div class="results-brand">AI Job Impact Analyzer</div>
+          <div class="results-brand">Will AI Take My Job?</div>
           <div class="results-meta">
             <span id="resultsSubject" class="results-subject"></span>
             <span class="results-sep">·</span>
@@ -355,6 +366,12 @@
 
     <div class="results-body">
       <div class="results-container">
+
+        <!-- Shock Stat Callout (inserted between score & risk spectrum by JS) -->
+        <div id="shockStatSection"></div>
+
+        <!-- Comparison Section (inserted at top of results by JS when friend result present) -->
+        <div id="comparisonSection"></div>
 
         <!-- Section 1: AI Resilience Score -->
         <section class="result-section reveal-section" id="section-score">
@@ -516,6 +533,13 @@
         <section class="result-section reveal-section share-section" id="section-share">
           <h2 class="share-title">Share Your Results</h2>
           <p class="share-subtitle">Copy your results summary to share or save for reference.</p>
+          <div class="share-live-counter">
+            <span class="live-counter">
+              <span class="live-counter-dot"></span>
+              <span class="live-counter-number">14,287</span>
+              <span class="live-counter-label">people have checked their AI risk</span>
+            </span>
+          </div>
           <div class="share-card">
             <div class="share-card-content" id="shareContent"></div>
           </div>
@@ -528,6 +552,15 @@
                 <line x1="12" y1="15" x2="12" y2="3" />
               </svg>
               Download Image Card
+            </button>
+            <button class="btn-challenge-friend" onclick="copyChallengeURL()" id="challengeFriendBtn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+              Challenge a Friend
             </button>
             <a id="shareTwitterBtn" class="btn-share-twitter" href="#" target="_blank" rel="noopener noreferrer">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -626,7 +659,7 @@
 
     <header class="site-header">
       <div class="header-inner">
-        <div class="site-brand"><a href="#" onclick="showPage('landing'); return false;">AI Job Impact Analyzer</a>
+        <div class="site-brand"><a href="#" onclick="showPage('landing'); return false;">Will AI Take My Job?</a>
         </div>
         <nav class="site-nav">
           <a href="#" id="backFromLeaderboard" onclick="showPage('landing'); return false;">← Back</a>

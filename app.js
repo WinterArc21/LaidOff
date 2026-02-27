@@ -91,67 +91,67 @@ const RESEARCH = {
   },
   skillsByIndustry: {
     Technology: {
-      icon: ["🔐", "🤖", "☁️", "🎨", "⚙️", "📊", "🛡️"],
+      icon: ["\uD83D\uDD10", "\uD83E\uDD16", "\u2601\uFE0F", "\uD83C\uDFA8", "\u2699\uFE0F", "\uD83D\uDCCA", "\uD83D\uDEE1\uFE0F"],
       skills: ["Cybersecurity", "AI/ML Operations", "Cloud Architecture", "Human-AI Interaction Design",
         "DevOps & Infrastructure", "AI Ethics & Governance", "Systems Design"]
     },
     Finance: {
-      icon: ["🧠", "📡", "🔍", "🤝", "📈", "⚖️", "🔒"],
+      icon: ["\uD83E\uDDE0", "\uD83D\uDCE1", "\uD83D\uDD0D", "\uD83E\uDD1D", "\uD83D\uDCC8", "\u2696\uFE0F", "\uD83D\uDD12"],
       skills: ["AI-Augmented Decision Making", "Strategic Communication", "Risk Analysis",
         "Client Relationship Management", "Data Storytelling", "Regulatory Compliance", "Fraud Detection"]
     },
     Healthcare: {
-      icon: ["💊", "🩺", "🤝", "🔬", "📋", "🧬", "📱"],
+      icon: ["\uD83D\uDC8A", "\uD83E\uDE7A", "\uD83E\uDD1D", "\uD83D\uDD2C", "\uD83D\uDCCB", "\uD83E\uDDEC", "\uD83D\uDCF1"],
       skills: ["Telemedicine Technology", "AI-Assisted Diagnostics", "Patient Communication",
         "Specialized Procedures", "Research Methodology", "Clinical Data Analysis", "Digital Health"]
     },
     Education: {
-      icon: ["🧠", "🎯", "🤝", "📊", "💡", "🌍", "🎮"],
+      icon: ["\uD83E\uDDE0", "\uD83C\uDFAF", "\uD83E\uDD1D", "\uD83D\uDCCA", "\uD83D\uDCA1", "\uD83C\uDF0D", "\uD83C\uDFAE"],
       skills: ["AI Literacy & Pedagogy", "Personalized Learning Design", "Emotional Intelligence",
         "Data-Driven Instruction", "Creative Problem Solving", "Interdisciplinary Teaching", "EdTech Mastery"]
     },
     Legal: {
-      icon: ["🧠", "🔍", "⚖️", "🤝", "📝", "🛡️", "💼"],
+      icon: ["\uD83E\uDDE0", "\uD83D\uDD0D", "\u2696\uFE0F", "\uD83E\uDD1D", "\uD83D\uDCDD", "\uD83D\uDEE1\uFE0F", "\uD83D\uDCBC"],
       skills: ["AI Legal Research", "Regulatory Technology", "Contract Analysis",
         "Ethical Judgment", "Strategic Advocacy", "Compliance Tech", "Domain Expertise"]
     },
     Marketing: {
-      icon: ["🎨", "📡", "🎯", "📊", "🤝", "💡", "🌐"],
+      icon: ["\uD83C\uDFA8", "\uD83D\uDCE1", "\uD83C\uDFAF", "\uD83D\uDCCA", "\uD83E\uDD1D", "\uD83D\uDCA1", "\uD83C\uDF10"],
       skills: ["Brand Strategy & Voice", "AI Tool Mastery", "Creative Direction",
         "Cultural Insight", "Multimedia Production", "Data Storytelling", "Campaign Analytics"]
     },
     Manufacturing: {
-      icon: ["🤖", "🔧", "📊", "🛡️", "⚡", "🌱", "🏭"],
+      icon: ["\uD83E\uDD16", "\uD83D\uDD27", "\uD83D\uDCCA", "\uD83D\uDEE1\uFE0F", "\u26A1", "\uD83C\uDF31", "\uD83C\uDFED"],
       skills: ["Industrial AI Systems", "Advanced Diagnostics", "Smart Manufacturing",
         "Quality Control AI", "Process Optimization", "Renewable Energy Tech", "Robotics Oversight"]
     },
     Retail: {
-      icon: ["📊", "🤝", "🌐", "📱", "🎯", "💡", "🔍"],
+      icon: ["\uD83D\uDCCA", "\uD83E\uDD1D", "\uD83C\uDF10", "\uD83D\uDCF1", "\uD83C\uDFAF", "\uD83D\uDCA1", "\uD83D\uDD0D"],
       skills: ["Customer Experience Design", "AI-Driven Personalization", "Omnichannel Strategy",
         "Supply Chain Optimization", "Brand Storytelling", "Data Analytics", "E-commerce Technology"]
     },
     Government: {
-      icon: ["🛡️", "📊", "🤝", "⚖️", "💡", "🌐", "🔒"],
+      icon: ["\uD83D\uDEE1\uFE0F", "\uD83D\uDCCA", "\uD83E\uDD1D", "\u2696\uFE0F", "\uD83D\uDCA1", "\uD83C\uDF10", "\uD83D\uDD12"],
       skills: ["AI Policy & Governance", "Digital Services Design", "Stakeholder Communication",
         "Ethical AI Implementation", "Cybersecurity", "Data Analytics", "Change Management"]
     },
     Creative: {
-      icon: ["🎨", "💡", "📡", "🌍", "🎬", "🤝", "🎯"],
+      icon: ["\uD83C\uDFA8", "\uD83D\uDCA1", "\uD83D\uDCE1", "\uD83C\uDF0D", "\uD83C\uDFAC", "\uD83E\uDD1D", "\uD83C\uDFAF"],
       skills: ["Creative Direction & Vision", "AI Tool Mastery", "Cultural Insight",
         "Multimedia Production", "Experiential Design", "Brand Strategy", "Audience Development"]
     },
     Construction: {
-      icon: ["🏗️", "🤖", "⚡", "📊", "🔧", "🌱", "💼"],
+      icon: ["\uD83C\uDFD7\uFE0F", "\uD83E\uDD16", "\u26A1", "\uD83D\uDCCA", "\uD83D\uDD27", "\uD83C\uDF31", "\uD83D\uDCBC"],
       skills: ["Smart Building Systems", "Renewable Energy Tech", "Advanced Diagnostics Tools",
         "Project Management", "BIM & Digital Twins", "Entrepreneurship", "Safety Tech"]
     },
     Transportation: {
-      icon: ["🚀", "📡", "🔧", "📊", "🛡️", "🌱", "💡"],
+      icon: ["\uD83D\uDE80", "\uD83D\uDCE1", "\uD83D\uDD27", "\uD83D\uDCCA", "\uD83D\uDEE1\uFE0F", "\uD83C\uDF31", "\uD83D\uDCA1"],
       skills: ["Autonomous Systems Oversight", "Logistics Optimization", "Predictive Maintenance",
         "Fleet Management Tech", "Safety & Compliance", "Sustainability Tech", "Last-Mile Innovation"]
     },
     Other: {
-      icon: ["🧠", "🤝", "📊", "💡", "🔍", "🎯", "⚡"],
+      icon: ["\uD83E\uDDE0", "\uD83E\uDD1D", "\uD83D\uDCCA", "\uD83D\uDCA1", "\uD83D\uDD0D", "\uD83C\uDFAF", "\u26A1"],
       skills: ["AI Literacy & Prompt Engineering", "Critical Thinking & Analysis", "Emotional Intelligence",
         "Creative Problem Solving", "Adaptability & Resilience", "Data Storytelling", "Interdisciplinary Knowledge"]
     }
@@ -210,17 +210,17 @@ const RESEARCH = {
   scenarios: {
     best: {
       name: "AI-Augmented Growth",
-      desc: "AI becomes a productivity multiplier for your role. Early adoption of AI tools triples output, and your capacity to direct AI effectively becomes a premium skill. Organizations compete for workers who can lead AI integration. Salary growth of 20–35% over 3 years.",
+      desc: "AI becomes a productivity multiplier for your role. Early adoption of AI tools triples output, and your capacity to direct AI effectively becomes a premium skill. Organizations compete for workers who can lead AI integration. Salary growth of 20\u201335% over 3 years.",
       prob_base: [25, 35]
     },
     likely: {
       name: "Role Transformation",
-      desc: "Your current role evolves significantly. 40–60% of existing tasks become automated, but new responsibilities emerge around oversight, strategy, and human judgment. A 6–12 month adaptation period is expected. Compensation stays flat or dips modestly before recovering.",
+      desc: "Your current role evolves significantly. 40\u201360% of existing tasks become automated, but new responsibilities emerge around oversight, strategy, and human judgment. A 6\u201312 month adaptation period is expected. Compensation stays flat or dips modestly before recovering.",
       prob_base: [35, 45]
     },
     bad: {
       name: "Significant Disruption",
-      desc: "Your role faces meaningful headcount reduction. Organizations cut positions 20–40% in your department, and remaining workers take on broader responsibilities with AI assistance. A career pivot within 18 months becomes the most pragmatic path.",
+      desc: "Your role faces meaningful headcount reduction. Organizations cut positions 20\u201340% in your department, and remaining workers take on broader responsibilities with AI assistance. A career pivot within 18 months becomes the most pragmatic path.",
       prob_base: [15, 25]
     },
     worst: {
@@ -293,6 +293,7 @@ let currentPage = 'landing';
 let analysisResult = null;
 let leaderboardData = [];
 let userLeaderboardEntry = null;
+let friendResult = null; // Stores a friend's result for comparison mode
 
 // =============================================
 // ASSESSMENT COUNTER (Feature 3)
@@ -315,6 +316,19 @@ function updateCounterDisplay() {
   document.querySelectorAll('.live-counter-number').forEach(el => {
     el.textContent = formatted;
   });
+}
+
+// Simulate real-time activity: increment counter randomly every 8-15 seconds
+function startCounterSimulation() {
+  function scheduleNextIncrement() {
+    const delay = 8000 + Math.random() * 7000; // 8-15 seconds
+    setTimeout(() => {
+      _assessmentSessionCount++;
+      updateCounterDisplay();
+      scheduleNextIncrement();
+    }, delay);
+  }
+  scheduleNextIncrement();
 }
 
 function animateCounter(el, target) {
@@ -352,13 +366,34 @@ function encodeResultsToURL(result) {
 function tryLoadFromURL() {
   const params = new URLSearchParams(window.location.search);
   if (!params.has('score') || !params.has('role')) return false;
+
   const jobTitle = params.get('role') || '';
   const industry = params.get('industry') || 'Other';
   const experience = params.get('exp') || '5';
   const seniority = params.get('sen') || 'mid';
   const aiUsage = params.get('ai') || 'occasionally';
   const score = parseInt(params.get('score'), 10);
+  const isCompare = params.get('compare') === '1';
   if (!jobTitle || isNaN(score)) return false;
+
+  // If compare=1, this is a friend's challenge link
+  // Save friend's result and redirect to form so visitor takes their own assessment
+  if (isCompare) {
+    const friendRes = calculateSurvival(jobTitle, experience, industry, seniority, aiUsage);
+    friendRes.score = Math.max(3, Math.min(97, score));
+    friendRes.jobTitle = jobTitle;
+    friendRes.industry = industry;
+    friendRes.experience = experience;
+    friendRes.seniority = seniority;
+    friendRes.aiUsage = aiUsage;
+    friendResult = friendRes;
+    // Clear the compare flag from URL and redirect to form
+    history.replaceState(null, '', window.location.pathname);
+    showPage('form');
+    // Show a banner prompting them to take the assessment
+    showCompareBanner(friendRes);
+    return true;
+  }
 
   // Recompute full result from params to ensure all fields present
   analysisResult = calculateSurvival(jobTitle, experience, industry, seniority, aiUsage);
@@ -687,6 +722,11 @@ function runAnalysis() {
   buildResults(analysisResult);
   showPage('results');
   animateResults();
+
+  // If we came from a challenge link, build the comparison section
+  if (friendResult) {
+    buildComparisonSection(analysisResult, friendResult);
+  }
 }
 
 // =============================================
@@ -760,6 +800,7 @@ function buildResults(r) {
   buildFutures(r);
   buildSkills(r);
   buildShareCard(r);
+  buildShockStat(r);
 
   // Store for chart
   window._salaryData = { best: r.salaryBest, worst: r.salaryWorst, score: r.score };
@@ -885,7 +926,7 @@ function buildSkills(r) {
 
   grid.innerHTML = skills.slice(0, 7).map((skill, i) => {
     const priority = priorities[i] || 'RECOMMENDED';
-    const icon = icons[i] || '💡';
+    const icon = icons[i] || '\uD83D\uDCA1';
     const desc = skillDescriptions[skill] || `High-value skill for navigating the AI transition in ${industry}. Projected demand through 2030.`;
     return `
       <div class="skill-card">
@@ -926,6 +967,7 @@ function buildShareCard(r) {
 
   const industry = r.industry || 'General';
   const topSkills = (RESEARCH.skillsByIndustry[industry] || RESEARCH.skillsByIndustry.Other).skills.slice(0, 3).join(', ');
+  const shockStat = getShockStat(r);
 
   const shareText =
     `AI Resilience Score: ${r.score}% — ${r.jobTitle} (${industry})
@@ -933,14 +975,16 @@ Risk Assessment: ${r.threatLevel}
 Most Likely Outcome: ${likelyScenario} (${maxProb}%)
 Recommended Skills: ${topSkills}
 
-Assessed using the AI Job Impact Analyzer — evidence-based career analysis from WEF, Goldman Sachs, McKinsey & OpenAI research.
+${shockStat.stat}
+
+Assessed using "Will AI Take My Job?" — evidence-based career analysis from WEF, Goldman Sachs, McKinsey & OpenAI research.
 laidoff.vercel.app`;
 
   document.getElementById('shareContent').textContent = shareText;
   window._shareText = shareText;
   window._shareResult = r;
 
-  // Build social share tweet/linkedin text (Feature 4)
+  // Build social share tweet/linkedin text
   const SITE_URL = 'https://laidoff.vercel.app';
   const tweetText = encodeURIComponent(`My ${r.jobTitle} job has a ${r.score}% AI resilience score — ${r.threatLevel}. Check yours 👇`);
   const shareUrl = encodeURIComponent(SITE_URL);
@@ -1317,7 +1361,185 @@ function filterLeaderboard(mode, btn) {
 }
 
 // =============================================
-// IMAGE DOWNLOAD CARD (Feature 1)
+// SHOCK STAT (Feature 3)
+// =============================================
+function getShockStat(r) {
+  const stats = {
+    ultra_high_risk: {
+      stat: 'In your field, 60-80% of tasks have already been automated. 108,000 jobs were cut in January 2026 alone.',
+      source: 'Careery 2026, Challenger Gray & Christmas'
+    },
+    high_risk: {
+      stat: 'AI can already perform 53-67% of tasks in your role category. Job postings in AI-exposed fields have dropped 32% since 2022.',
+      source: 'Bloomberg, Federal Reserve'
+    },
+    moderate_risk: {
+      stat: '40% of programming tasks are projected to be automated by 2040 — but workers with AI skills earn 56% more than peers without.',
+      source: 'WEF 2025, PwC'
+    },
+    low_risk: {
+      stat: 'AI-exposed occupations are actually outperforming in job growth: 1.7% vs 0.8% for others. The key is adapting, not avoiding.',
+      source: 'Vanguard 2025'
+    },
+    very_low_risk: {
+      stat: 'Your field has a 94% AI resilience rating. Skilled trades and hands-on professions are among the most secure careers through 2030.',
+      source: 'PrometAI, Forbes 2026'
+    }
+  };
+  return stats[r.category] || stats.moderate_risk;
+}
+
+function buildShockStat(r) {
+  const container = document.getElementById('shockStatSection');
+  if (!container) return;
+  const stat = getShockStat(r);
+  container.innerHTML = `
+    <div class="shock-stat-callout reveal-section visible">
+      <div class="shock-stat-text">${stat.stat}</div>
+      <div class="shock-stat-source">Source: ${stat.source}</div>
+    </div>
+  `;
+  // Insert between section-score and section-risk
+  const sectionRisk = document.getElementById('section-risk');
+  if (sectionRisk && container.parentNode) {
+    container.parentNode.insertBefore(container, sectionRisk);
+    container.style.display = '';
+  }
+}
+
+// =============================================
+// COMPARISON MODE (Feature 4)
+// =============================================
+function showCompareBanner(friendRes) {
+  // Show a banner on the form page explaining the comparison
+  setTimeout(() => {
+    const formHeader = document.querySelector('.form-header');
+    if (!formHeader) return;
+    const banner = document.createElement('div');
+    banner.className = 'compare-challenge-banner';
+    banner.innerHTML = `
+      <div class="challenge-banner-inner">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+          <circle cx="9" cy="7" r="4"/>
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+        </svg>
+        <div>
+          <strong>You've been challenged!</strong> Your friend is a <strong>${friendRes.jobTitle}</strong> with a <strong>${friendRes.score}%</strong> resilience score (<em>${friendRes.threatLevel}</em>). Take your own assessment to compare.
+        </div>
+      </div>
+    `;
+    formHeader.insertAdjacentElement('afterend', banner);
+  }, 300);
+}
+
+function buildComparisonSection(myResult, friendRes) {
+  const container = document.getElementById('comparisonSection');
+  if (!container) return;
+
+  const myColor = myResult.score < 35 ? '#C45D3E' : myResult.score < 55 ? '#C49A3C' : myResult.score < 75 ? '#5A7A5E' : '#2C3E50';
+  const friendColor = friendRes.score < 35 ? '#C45D3E' : friendRes.score < 55 ? '#C49A3C' : friendRes.score < 75 ? '#5A7A5E' : '#2C3E50';
+
+  const myScenarios = myResult.scenarios;
+  const myMaxProb = Math.max(myScenarios.bestProb, myScenarios.likelyProb, myScenarios.badProb, myScenarios.worstProb);
+  let myLikely;
+  if (myMaxProb === myScenarios.bestProb) myLikely = RESEARCH.scenarios.best.name;
+  else if (myMaxProb === myScenarios.likelyProb) myLikely = RESEARCH.scenarios.likely.name;
+  else if (myMaxProb === myScenarios.badProb) myLikely = RESEARCH.scenarios.bad.name;
+  else myLikely = RESEARCH.scenarios.worst.name;
+
+  const friendScenarios = friendRes.scenarios;
+  const friendMaxProb = Math.max(friendScenarios.bestProb, friendScenarios.likelyProb, friendScenarios.badProb, friendScenarios.worstProb);
+  let friendLikely;
+  if (friendMaxProb === friendScenarios.bestProb) friendLikely = RESEARCH.scenarios.best.name;
+  else if (friendMaxProb === friendScenarios.likelyProb) friendLikely = RESEARCH.scenarios.likely.name;
+  else if (friendMaxProb === friendScenarios.badProb) friendLikely = RESEARCH.scenarios.bad.name;
+  else friendLikely = RESEARCH.scenarios.worst.name;
+
+  const winner = myResult.score >= friendRes.score ? 'you' : 'friend';
+  const winnerLabel = winner === 'you'
+    ? '← You are more resilient to AI disruption'
+    : 'Your friend is more resilient to AI disruption →';
+
+  container.innerHTML = `
+    <section class="comparison-section reveal-section visible">
+      <div class="section-label">Friend Challenge</div>
+      <h2 class="section-title">Side-by-Side Comparison</h2>
+      <p class="section-intro">You accepted a challenge. Here\'s how your AI resilience stacks up against your friend\'s result.</p>
+      <div class="comparison-grid">
+        <div class="comparison-card ${winner === 'you' ? 'comparison-winner' : ''}">
+          <div class="comparison-card-label">Your Result</div>
+          <div class="comparison-job">${myResult.jobTitle}</div>
+          <div class="comparison-score" style="color:${myColor}">${myResult.score}%</div>
+          <div class="comparison-threat" style="color:${myColor}">${myResult.threatLevel}</div>
+          <div class="comparison-scenario">Most likely: ${myLikely}</div>
+          ${winner === 'you' ? '<div class="comparison-badge">★ More Resilient</div>' : ''}
+        </div>
+        <div class="comparison-vs">VS</div>
+        <div class="comparison-card ${winner === 'friend' ? 'comparison-winner' : ''}">
+          <div class="comparison-card-label">Friend\'s Result</div>
+          <div class="comparison-job">${friendRes.jobTitle}</div>
+          <div class="comparison-score" style="color:${friendColor}">${friendRes.score}%</div>
+          <div class="comparison-threat" style="color:${friendColor}">${friendRes.threatLevel}</div>
+          <div class="comparison-scenario">Most likely: ${friendLikely}</div>
+          ${winner === 'friend' ? '<div class="comparison-badge">★ More Resilient</div>' : ''}
+        </div>
+      </div>
+      <div class="comparison-verdict">${winnerLabel}</div>
+    </section>
+  `;
+
+  container.style.display = '';
+  // Move to top of results container
+  const resultsContainer = document.querySelector('.results-container');
+  const firstSection = document.getElementById('shockStatSection');
+  if (resultsContainer && firstSection) {
+    resultsContainer.insertBefore(container, firstSection);
+  }
+}
+
+function copyChallengeURL() {
+  const r = window._shareResult;
+  if (!r) return;
+  const params = new URLSearchParams({
+    role: r.jobTitle,
+    industry: r.industry,
+    score: r.score,
+    risk: r.category,
+    exp: r.experience,
+    sen: r.seniority,
+    ai: r.aiUsage,
+    compare: '1'
+  });
+  const url = `https://laidoff.vercel.app/?${params.toString()}`;
+  navigator.clipboard.writeText(url).then(() => {
+    const btn = document.getElementById('challengeFriendBtn');
+    if (btn) {
+      const origText = btn.innerHTML;
+      btn.innerHTML = btn.innerHTML.replace('Challenge a Friend', 'Link Copied!');
+      setTimeout(() => { btn.innerHTML = origText; }, 3000);
+    }
+  }).catch(() => {
+    // Fallback
+    const el = document.createElement('textarea');
+    el.value = url;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+    const btn = document.getElementById('challengeFriendBtn');
+    if (btn) {
+      btn.innerHTML = btn.innerHTML.replace('Challenge a Friend', 'Link Copied!');
+      setTimeout(() => {
+        btn.innerHTML = btn.innerHTML.replace('Link Copied!', 'Challenge a Friend');
+      }, 3000);
+    }
+  });
+}
+
+// =============================================
+// IMAGE DOWNLOAD CARD (Feature 2 — Enhanced Editorial Card)
 // =============================================
 function downloadResultImage() {
   const r = window._shareResult;
@@ -1329,113 +1551,199 @@ function downloadResultImage() {
   canvas.height = H;
   const ctx = canvas.getContext('2d');
 
-  // Background gradient
-  const bg = ctx.createLinearGradient(0, 0, W, H);
-  bg.addColorStop(0, '#1A1208');
-  bg.addColorStop(1, '#0D1A12');
-  ctx.fillStyle = bg;
+  // Background: cream #F5F0E8
+  ctx.fillStyle = '#F5F0E8';
   ctx.fillRect(0, 0, W, H);
 
-  // Decorative circle
+  // Left accent bar
+  ctx.fillStyle = r.score < 35 ? '#C45D3E' : r.score < 55 ? '#C49A3C' : '#5A7A5E';
+  ctx.fillRect(0, 0, 6, H);
+
+  // Subtle decorative circle (top-right)
   ctx.beginPath();
-  ctx.arc(W - 120, 100, 260, 0, Math.PI * 2);
-  ctx.fillStyle = 'rgba(90,122,94,0.07)';
-  ctx.fill();
-  ctx.beginPath();
-  ctx.arc(80, H - 60, 180, 0, Math.PI * 2);
-  ctx.fillStyle = 'rgba(196,93,62,0.06)';
+  ctx.arc(W - 80, -80, 280, 0, Math.PI * 2);
+  ctx.fillStyle = 'rgba(44,62,80,0.04)';
   ctx.fill();
 
-  // Score colors
-  const scoreColor = r.score < 35 ? '#E07556' : r.score < 55 ? '#D4A843' : r.score < 75 ? '#6A9E6E' : '#4A7A8A';
+  // Bottom decorative circle
+  ctx.beginPath();
+  ctx.arc(W - 160, H + 60, 200, 0, Math.PI * 2);
+  ctx.fillStyle = 'rgba(196,93,62,0.05)';
+  ctx.fill();
 
-  // Eyebrow
-  ctx.fillStyle = 'rgba(255,255,255,0.35)';
-  ctx.font = '500 22px sans-serif';
+  // Score color
+  const scoreColor = r.score < 35 ? '#C45D3E' : r.score < 55 ? '#C49A3C' : r.score < 75 ? '#5A7A5E' : '#2C3E50';
+
+  const padL = 72;
+
+  // --- TOP BAR ---
+  // Branding
+  ctx.fillStyle = '#2C3E50';
+  ctx.font = 'bold 15px serif';
   ctx.textAlign = 'left';
-  ctx.fillText('AI JOB IMPACT ANALYZER · EVIDENCE-BASED ASSESSMENT', 80, 72);
+  ctx.fillText('Will AI Take My Job?', padL, 56);
 
-  // Job title
-  ctx.fillStyle = '#F5F0E8';
-  ctx.font = `700 ${r.jobTitle.length > 24 ? 54 : 68}px sans-serif`;
-  ctx.fillText(r.jobTitle, 80, 165);
-
-  // Industry tag
-  const tag = `  ${r.industry}  `;
-  ctx.font = '500 20px sans-serif';
-  const tagW = ctx.measureText(tag).width + 24;
-  ctx.fillStyle = 'rgba(255,255,255,0.08)';
-  roundRect(ctx, 80, 185, tagW, 38, 6);
-  ctx.fill();
-  ctx.fillStyle = 'rgba(255,255,255,0.55)';
-  ctx.fillText(tag, 80 + 12, 209);
+  // Date
+  const dateStr = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+  ctx.fillStyle = '#8C8680';
+  ctx.font = '13px sans-serif';
+  ctx.textAlign = 'right';
+  ctx.fillText(dateStr, W - padL, 56);
 
   // Divider
-  ctx.strokeStyle = 'rgba(255,255,255,0.1)';
+  ctx.strokeStyle = '#D9D2C7';
   ctx.lineWidth = 1;
   ctx.beginPath();
-  ctx.moveTo(80, 248);
-  ctx.lineTo(W - 80, 248);
+  ctx.moveTo(padL, 72);
+  ctx.lineTo(W - padL, 72);
   ctx.stroke();
 
-  // Big score
-  ctx.font = '800 160px sans-serif';
+  // --- JOB TITLE ---
+  ctx.fillStyle = '#1A1A1A';
+  const titleSize = r.jobTitle.length > 24 ? 52 : r.jobTitle.length > 18 ? 62 : 72;
+  ctx.font = `bold ${titleSize}px serif`;
+  ctx.textAlign = 'left';
+  ctx.fillText(r.jobTitle, padL, 160);
+
+  // Industry tag (pill)
+  ctx.font = '500 16px sans-serif';
+  const tagText = r.industry || 'General';
+  const tagW = ctx.measureText(tagText).width + 24;
+  ctx.fillStyle = 'rgba(44,62,80,0.08)';
+  roundRect(ctx, padL, 180, tagW, 30, 5);
+  ctx.fill();
+  ctx.fillStyle = '#2C3E50';
+  ctx.fillText(tagText, padL + 12, 200);
+
+  // --- SCORE AREA (left column) ---
+  // Huge score number
+  ctx.font = 'bold 160px serif';
   ctx.fillStyle = scoreColor;
   ctx.textAlign = 'left';
-  ctx.fillText(`${r.score}%`, 80, 430);
+  ctx.fillText(`${r.score}%`, padL, 390);
 
   // Score label
-  ctx.font = '600 26px sans-serif';
-  ctx.fillStyle = 'rgba(255,255,255,0.5)';
-  ctx.fillText('AI RESILIENCE SCORE', 80, 468);
-
-  // Risk badge
-  ctx.font = '700 24px sans-serif';
-  const badgeW = ctx.measureText(r.threatLevel).width + 40;
-  ctx.fillStyle = scoreColor + '22';
-  roundRect(ctx, 80, 492, badgeW, 44, 8);
-  ctx.fill();
-  ctx.fillStyle = scoreColor;
-  ctx.fillText(r.threatLevel, 80 + 20, 520);
-
-  // Right panel — scenario breakdown
-  const panelX = 700;
-  ctx.textAlign = 'left';
-  ctx.fillStyle = 'rgba(255,255,255,0.3)';
   ctx.font = '600 18px sans-serif';
-  ctx.fillText('SCENARIO BREAKDOWN', panelX, 300);
+  ctx.fillStyle = '#6B6B6B';
+  ctx.fillText('AI RESILIENCE SCORE', padL, 422);
+
+  // Risk level badge
+  ctx.font = '700 16px sans-serif';
+  const badgeText = r.threatLevel.toUpperCase();
+  const badgeW = ctx.measureText(badgeText).width + 32;
+  ctx.fillStyle = scoreColor + '18';
+  roundRect(ctx, padL, 436, badgeW, 36, 20);
+  ctx.fill();
+  ctx.strokeStyle = scoreColor + '44';
+  ctx.lineWidth = 1.5;
+  roundRect(ctx, padL, 436, badgeW, 36, 20);
+  ctx.stroke();
+  ctx.fillStyle = scoreColor;
+  ctx.font = '700 13px sans-serif';
+  ctx.fillText(badgeText, padL + 16, 459);
+
+  // --- SHOCK STAT (center-right area) ---
+  const shockStat = getShockStat(r);
+  const statX = 480;
+  const statW = W - statX - padL;
+
+  // Stat background card
+  ctx.fillStyle = '#FFFFFF';
+  roundRect(ctx, statX, 110, statW, 180, 8);
+  ctx.fill();
+  ctx.strokeStyle = scoreColor;
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(statX, 118);
+  ctx.lineTo(statX, 282);
+  ctx.stroke();
+
+  // Stat text (word wrap)
+  ctx.fillStyle = '#1A1A1A';
+  ctx.font = '500 18px sans-serif';
+  ctx.textAlign = 'left';
+  const words = shockStat.stat.split(' ');
+  let line = '';
+  let statY = 150;
+  const maxW = statW - 40;
+  for (let i = 0; i < words.length; i++) {
+    const testLine = line + words[i] + ' ';
+    if (ctx.measureText(testLine).width > maxW && i > 0) {
+      ctx.fillText(line.trim(), statX + 20, statY);
+      line = words[i] + ' ';
+      statY += 26;
+    } else {
+      line = testLine;
+    }
+    if (statY > 270) { line = line + '...'; break; }
+  }
+  if (line.trim()) ctx.fillText(line.trim(), statX + 20, statY);
+
+  // Source
+  ctx.font = '400 13px sans-serif';
+  ctx.fillStyle = '#8C8680';
+  ctx.fillText('Source: ' + shockStat.source, statX + 20, 302);
+
+  // --- RIGHT PANEL: scenario bars ---
+  const panelX = 480;
+  const panelY = 330;
+  ctx.fillStyle = '#6B6B6B';
+  ctx.font = '700 12px sans-serif';
+  ctx.textAlign = 'left';
+  ctx.fillText('SCENARIO BREAKDOWN', panelX, panelY - 8);
 
   const scenarioItems = [
-    { label: 'AI-Augmented Growth', prob: r.scenarios.bestProb, color: '#6A9E6E' },
-    { label: 'Role Transformation', prob: r.scenarios.likelyProb, color: '#8AACB8' },
-    { label: 'Significant Disruption', prob: r.scenarios.badProb, color: '#D4A843' },
-    { label: 'Full Displacement', prob: r.scenarios.worstProb, color: '#E07556' },
+    { label: 'AI Growth', prob: r.scenarios.bestProb, color: '#5A7A5E' },
+    { label: 'Transformation', prob: r.scenarios.likelyProb, color: '#2C3E50' },
+    { label: 'Disruption', prob: r.scenarios.badProb, color: '#C49A3C' },
+    { label: 'Displacement', prob: r.scenarios.worstProb, color: '#C45D3E' },
   ];
+  const barMaxW = statW;
   scenarioItems.forEach((s, i) => {
-    const y = 336 + i * 66;
+    const y = panelY + i * 52;
     // Bar bg
-    ctx.fillStyle = 'rgba(255,255,255,0.05)';
-    roundRect(ctx, panelX, y, 420, 48, 6);
+    ctx.fillStyle = '#EDE8DE';
+    roundRect(ctx, panelX, y, barMaxW, 34, 4);
     ctx.fill();
     // Bar fill
-    ctx.fillStyle = s.color + '55';
-    roundRect(ctx, panelX, y, Math.max(8, 420 * s.prob / 100), 48, 6);
+    const fillW = Math.max(8, barMaxW * s.prob / 100);
+    ctx.fillStyle = s.color + 'CC';
+    roundRect(ctx, panelX, y, fillW, 34, 4);
     ctx.fill();
     // Label
+    ctx.fillStyle = '#1A1A1A';
+    ctx.font = '600 13px sans-serif';
+    ctx.textAlign = 'left';
+    ctx.fillText(s.label, panelX + 10, y + 14);
     ctx.fillStyle = '#F5F0E8';
-    ctx.font = '500 17px sans-serif';
-    ctx.fillText(s.label, panelX + 12, y + 22);
-    ctx.fillStyle = s.color;
-    ctx.font = '700 22px sans-serif';
-    ctx.fillText(`${s.prob}%`, panelX + 12, y + 42);
+    ctx.font = '700 13px sans-serif';
+    ctx.fillText(`${s.prob}%`, panelX + 10, y + 28);
   });
+
+  // --- BOTTOM FOOTER ---
+  ctx.strokeStyle = '#D9D2C7';
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(padL, 560);
+  ctx.lineTo(W - padL, 560);
+  ctx.stroke();
+
+  ctx.fillStyle = '#6B6B6B';
+  ctx.font = '500 14px sans-serif';
+  ctx.textAlign = 'left';
+  ctx.fillText('laidoff.vercel.app', padL, 594);
+
+  ctx.textAlign = 'right';
+  ctx.fillStyle = '#8C8680';
+  ctx.fillText('Take your assessment →', W - padL, 594);
 
   // Download
   const link = document.createElement('a');
-  link.download = `ai-resilience-${r.jobTitle.replace(/\s+/g, '-').toLowerCase()}.png`;
+  link.download = `will-ai-take-my-job-${r.jobTitle.replace(/\s+/g, '-').toLowerCase()}.png`;
   link.href = canvas.toDataURL('image/png');
   link.click();
 }
+
 
 function roundRect(ctx, x, y, w, h, r) {
   ctx.beginPath();
@@ -1466,6 +1774,9 @@ document.addEventListener('DOMContentLoaded', () => {
   updateCounterDisplay();
   const counterEls = document.querySelectorAll('.live-counter-number');
   counterEls.forEach(el => animateCounter(el, getAssessmentCount()));
+
+  // Start simulated real-time counter increments
+  startCounterSimulation();
 
   // Try to load from URL params (shared result)
   if (window.location.search) {
@@ -1560,3 +1871,4 @@ window.runAnalysis = runAnalysis;
 window.copyShareText = copyShareText;
 window.filterLeaderboard = filterLeaderboard;
 window.downloadResultImage = downloadResultImage;
+window.copyChallengeURL = copyChallengeURL;
