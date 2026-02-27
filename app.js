@@ -13,147 +13,147 @@ const RESEARCH = {
     ultra_high_risk: {
       survival_range: [5, 25],
       salary_change_range: [-45, -15],
-      roles: ["data entry clerk","telemarketer","bookkeeper","tax preparer","legal secretary",
-        "administrative assistant","proofreader","copy marker","correspondence clerk",
-        "switchboard operator","ticket agent","travel clerk","financial clerk",
-        "order filler","stock clerk","receptionist","scheduler","file clerk","billing clerk",
-        "payroll clerk","data entry","secretary","typist","word processor"],
+      roles: ["data entry clerk", "telemarketer", "bookkeeper", "tax preparer", "legal secretary",
+        "administrative assistant", "proofreader", "copy marker", "correspondence clerk",
+        "switchboard operator", "ticket agent", "travel clerk", "financial clerk",
+        "order filler", "stock clerk", "receptionist", "scheduler", "file clerk", "billing clerk",
+        "payroll clerk", "data entry", "secretary", "typist", "word processor"],
       reasoning: "Wave 1 automation targets (Careery 2026). 60-80% task automation already underway."
     },
     high_risk: {
       survival_range: [20, 45],
       salary_change_range: [-30, -5],
-      roles: ["customer service representative","customer service","translator","interpreter",
-        "content writer","copywriter","journalist","reporter","paralegal",
-        "junior accountant","bookkeeping clerk","auditing clerk","market research analyst",
-        "sales representative","sales rep","insurance underwriter","retail salesperson",
-        "cashier","fast food worker","counter worker","broadcast announcer","radio dj",
-        "brokerage clerk","statistical assistant","technical writer","copy editor",
-        "claims adjuster","loan officer","teller","bank teller","call center","support agent",
-        "content creator","blogger","columnist","editor assistant","research assistant"],
+      roles: ["customer service representative", "customer service", "translator", "interpreter",
+        "content writer", "copywriter", "journalist", "reporter", "paralegal",
+        "junior accountant", "bookkeeping clerk", "auditing clerk", "market research analyst",
+        "sales representative", "sales rep", "insurance underwriter", "retail salesperson",
+        "cashier", "fast food worker", "counter worker", "broadcast announcer", "radio dj",
+        "brokerage clerk", "statistical assistant", "technical writer", "copy editor",
+        "claims adjuster", "loan officer", "teller", "bank teller", "call center", "support agent",
+        "content creator", "blogger", "columnist", "editor assistant", "research assistant"],
       reasoning: "Wave 2 targets (2025-2027). Microsoft ranks these in top 40 AI-exposed."
     },
     moderate_risk: {
       survival_range: [40, 65],
       salary_change_range: [-15, 10],
-      roles: ["software developer","software engineer","web developer","data scientist",
-        "data analyst","financial analyst","graphic designer","ui designer","ux designer",
-        "product designer","marketing specialist","digital marketer","seo specialist",
-        "social media manager","hr specialist","human resources","hr assistant","recruiter",
-        "talent acquisition","business analyst","project manager","scrum master",
-        "product manager","accountant","auditor","personal financial advisor","management consultant",
-        "editor","historian","geographer","archivist","librarian","teacher","professor",
-        "lecturer","instructor","trainer","curriculum developer","instructional designer",
-        "marketing manager","brand manager","communications manager","pr specialist",
-        "public relations","event planner","event coordinator","animator","video editor",
-        "game designer","concept artist","illustrator","programmer","developer","coder",
-        "full stack","frontend developer","backend developer","mobile developer",
-        "ios developer","android developer","qa engineer","test engineer","devops",
-        "site reliability","systems analyst","it analyst","database administrator",
-        "network administrator","it manager","information technology","finance manager",
-        "controller","budget analyst","cost analyst","tax specialist","compliance officer"],
+      roles: ["software developer", "software engineer", "web developer", "data scientist",
+        "data analyst", "financial analyst", "graphic designer", "ui designer", "ux designer",
+        "product designer", "marketing specialist", "digital marketer", "seo specialist",
+        "social media manager", "hr specialist", "human resources", "hr assistant", "recruiter",
+        "talent acquisition", "business analyst", "project manager", "scrum master",
+        "product manager", "accountant", "auditor", "personal financial advisor", "management consultant",
+        "editor", "historian", "geographer", "archivist", "librarian", "teacher", "professor",
+        "lecturer", "instructor", "trainer", "curriculum developer", "instructional designer",
+        "marketing manager", "brand manager", "communications manager", "pr specialist",
+        "public relations", "event planner", "event coordinator", "animator", "video editor",
+        "game designer", "concept artist", "illustrator", "programmer", "developer", "coder",
+        "full stack", "frontend developer", "backend developer", "mobile developer",
+        "ios developer", "android developer", "qa engineer", "test engineer", "devops",
+        "site reliability", "systems analyst", "it analyst", "database administrator",
+        "network administrator", "it manager", "information technology", "finance manager",
+        "controller", "budget analyst", "cost analyst", "tax specialist", "compliance officer"],
       reasoning: "Complex but partially automatable. WEF: 40% of programming tasks automated by 2040."
     },
     low_risk: {
       survival_range: [60, 82],
       salary_change_range: [0, 20],
-      roles: ["nurse","registered nurse","nurse practitioner","physician assistant",
-        "physical therapist","occupational therapist","mental health counselor","therapist",
-        "social worker","psychologist","speech pathologist","doctor","physician","surgeon",
-        "dentist","pharmacist","veterinarian","civil engineer","mechanical engineer",
-        "electrical engineer","aerospace engineer","construction manager","architect",
-        "urban planner","cybersecurity analyst","ai engineer","machine learning engineer",
-        "lawyer","attorney","judge","detective","police officer","firefighter",
-        "paramedic","emt","emergency medical","security analyst","information security",
-        "network security","systems engineer","cloud engineer","solutions architect",
-        "technical lead","engineering manager","research scientist","clinical researcher",
-        "epidemiologist","public health","environmental scientist","geologist","biologist",
-        "chemist","physicist","mathematician","statistician","economist","social scientist",
-        "anthropologist","sociologist"],
+      roles: ["nurse", "registered nurse", "nurse practitioner", "physician assistant",
+        "physical therapist", "occupational therapist", "mental health counselor", "therapist",
+        "social worker", "psychologist", "speech pathologist", "doctor", "physician", "surgeon",
+        "dentist", "pharmacist", "veterinarian", "civil engineer", "mechanical engineer",
+        "electrical engineer", "aerospace engineer", "construction manager", "architect",
+        "urban planner", "cybersecurity analyst", "ai engineer", "machine learning engineer",
+        "lawyer", "attorney", "judge", "detective", "police officer", "firefighter",
+        "paramedic", "emt", "emergency medical", "security analyst", "information security",
+        "network security", "systems engineer", "cloud engineer", "solutions architect",
+        "technical lead", "engineering manager", "research scientist", "clinical researcher",
+        "epidemiologist", "public health", "environmental scientist", "geologist", "biologist",
+        "chemist", "physicist", "mathematician", "statistician", "economist", "social scientist",
+        "anthropologist", "sociologist"],
       reasoning: "Require physical presence, emotional intelligence, ethical accountability."
     },
     very_low_risk: {
       survival_range: [78, 95],
       salary_change_range: [5, 30],
-      roles: ["electrician","plumber","hvac technician","hvac","carpenter","welder",
-        "mechanic","auto technician","crane operator","heavy equipment operator",
-        "nurse anesthetist","emergency physician","pilot","flight engineer",
-        "choreographer","athletic trainer","coach","fitness trainer","personal trainer",
-        "chef","head chef","executive chef","sous chef","early childhood educator",
-        "daycare worker","childcare","midwife","prosthodontist","oral surgeon",
-        "dermatologist","neurologist","psychiatrist","emergency manager","fire chief",
-        "pipefitter","ironworker","boilermaker","glazier","roofer","sheet metal worker",
-        "concrete finisher","mason","bricklayer","tile setter","flooring installer",
-        "painter contractor","grounds maintenance","arborist","landscaper","farmer",
-        "agricultural worker","childcare worker","preschool teacher","kindergarten teacher"],
+      roles: ["electrician", "plumber", "hvac technician", "hvac", "carpenter", "welder",
+        "mechanic", "auto technician", "crane operator", "heavy equipment operator",
+        "nurse anesthetist", "emergency physician", "pilot", "flight engineer",
+        "choreographer", "athletic trainer", "coach", "fitness trainer", "personal trainer",
+        "chef", "head chef", "executive chef", "sous chef", "early childhood educator",
+        "daycare worker", "childcare", "midwife", "prosthodontist", "oral surgeon",
+        "dermatologist", "neurologist", "psychiatrist", "emergency manager", "fire chief",
+        "pipefitter", "ironworker", "boilermaker", "glazier", "roofer", "sheet metal worker",
+        "concrete finisher", "mason", "bricklayer", "tile setter", "flooring installer",
+        "painter contractor", "grounds maintenance", "arborist", "landscaper", "farmer",
+        "agricultural worker", "childcare worker", "preschool teacher", "kindergarten teacher"],
       reasoning: "Physical complexity + human judgment + unpredictable environments."
     }
   },
   skillsByIndustry: {
     Technology: {
-      icon: ["\uD83D\uDD10","\uD83E\uDD16","\u2601\uFE0F","\uD83C\uDFA8","\u2699\uFE0F","\uD83D\uDCCA","\uD83D\uDEE1\uFE0F"],
-      skills: ["Cybersecurity","AI/ML Operations","Cloud Architecture","Human-AI Interaction Design",
-        "DevOps & Infrastructure","AI Ethics & Governance","Systems Design"]
+      icon: ["\uD83D\uDD10", "\uD83E\uDD16", "\u2601\uFE0F", "\uD83C\uDFA8", "\u2699\uFE0F", "\uD83D\uDCCA", "\uD83D\uDEE1\uFE0F"],
+      skills: ["Cybersecurity", "AI/ML Operations", "Cloud Architecture", "Human-AI Interaction Design",
+        "DevOps & Infrastructure", "AI Ethics & Governance", "Systems Design"]
     },
     Finance: {
-      icon: ["\uD83E\uDDE0","\uD83D\uDCE1","\uD83D\uDD0D","\uD83E\uDD1D","\uD83D\uDCC8","\u2696\uFE0F","\uD83D\uDD12"],
-      skills: ["AI-Augmented Decision Making","Strategic Communication","Risk Analysis",
-        "Client Relationship Management","Data Storytelling","Regulatory Compliance","Fraud Detection"]
+      icon: ["\uD83E\uDDE0", "\uD83D\uDCE1", "\uD83D\uDD0D", "\uD83E\uDD1D", "\uD83D\uDCC8", "\u2696\uFE0F", "\uD83D\uDD12"],
+      skills: ["AI-Augmented Decision Making", "Strategic Communication", "Risk Analysis",
+        "Client Relationship Management", "Data Storytelling", "Regulatory Compliance", "Fraud Detection"]
     },
     Healthcare: {
-      icon: ["\uD83D\uDC8A","\uD83E\uDE7A","\uD83E\uDD1D","\uD83D\uDD2C","\uD83D\uDCCB","\uD83E\uDDEC","\uD83D\uDCF1"],
-      skills: ["Telemedicine Technology","AI-Assisted Diagnostics","Patient Communication",
-        "Specialized Procedures","Research Methodology","Clinical Data Analysis","Digital Health"]
+      icon: ["\uD83D\uDC8A", "\uD83E\uDE7A", "\uD83E\uDD1D", "\uD83D\uDD2C", "\uD83D\uDCCB", "\uD83E\uDDEC", "\uD83D\uDCF1"],
+      skills: ["Telemedicine Technology", "AI-Assisted Diagnostics", "Patient Communication",
+        "Specialized Procedures", "Research Methodology", "Clinical Data Analysis", "Digital Health"]
     },
     Education: {
-      icon: ["\uD83E\uDDE0","\uD83C\uDFAF","\uD83E\uDD1D","\uD83D\uDCCA","\uD83D\uDCA1","\uD83C\uDF0D","\uD83C\uDFAE"],
-      skills: ["AI Literacy & Pedagogy","Personalized Learning Design","Emotional Intelligence",
-        "Data-Driven Instruction","Creative Problem Solving","Interdisciplinary Teaching","EdTech Mastery"]
+      icon: ["\uD83E\uDDE0", "\uD83C\uDFAF", "\uD83E\uDD1D", "\uD83D\uDCCA", "\uD83D\uDCA1", "\uD83C\uDF0D", "\uD83C\uDFAE"],
+      skills: ["AI Literacy & Pedagogy", "Personalized Learning Design", "Emotional Intelligence",
+        "Data-Driven Instruction", "Creative Problem Solving", "Interdisciplinary Teaching", "EdTech Mastery"]
     },
     Legal: {
-      icon: ["\uD83E\uDDE0","\uD83D\uDD0D","\u2696\uFE0F","\uD83E\uDD1D","\uD83D\uDCDD","\uD83D\uDEE1\uFE0F","\uD83D\uDCBC"],
-      skills: ["AI Legal Research","Regulatory Technology","Contract Analysis",
-        "Ethical Judgment","Strategic Advocacy","Compliance Tech","Domain Expertise"]
+      icon: ["\uD83E\uDDE0", "\uD83D\uDD0D", "\u2696\uFE0F", "\uD83E\uDD1D", "\uD83D\uDCDD", "\uD83D\uDEE1\uFE0F", "\uD83D\uDCBC"],
+      skills: ["AI Legal Research", "Regulatory Technology", "Contract Analysis",
+        "Ethical Judgment", "Strategic Advocacy", "Compliance Tech", "Domain Expertise"]
     },
     Marketing: {
-      icon: ["\uD83C\uDFA8","\uD83D\uDCE1","\uD83C\uDFAF","\uD83D\uDCCA","\uD83E\uDD1D","\uD83D\uDCA1","\uD83C\uDF10"],
-      skills: ["Brand Strategy & Voice","AI Tool Mastery","Creative Direction",
-        "Cultural Insight","Multimedia Production","Data Storytelling","Campaign Analytics"]
+      icon: ["\uD83C\uDFA8", "\uD83D\uDCE1", "\uD83C\uDFAF", "\uD83D\uDCCA", "\uD83E\uDD1D", "\uD83D\uDCA1", "\uD83C\uDF10"],
+      skills: ["Brand Strategy & Voice", "AI Tool Mastery", "Creative Direction",
+        "Cultural Insight", "Multimedia Production", "Data Storytelling", "Campaign Analytics"]
     },
     Manufacturing: {
-      icon: ["\uD83E\uDD16","\uD83D\uDD27","\uD83D\uDCCA","\uD83D\uDEE1\uFE0F","\u26A1","\uD83C\uDF31","\uD83C\uDFED"],
-      skills: ["Industrial AI Systems","Advanced Diagnostics","Smart Manufacturing",
-        "Quality Control AI","Process Optimization","Renewable Energy Tech","Robotics Oversight"]
+      icon: ["\uD83E\uDD16", "\uD83D\uDD27", "\uD83D\uDCCA", "\uD83D\uDEE1\uFE0F", "\u26A1", "\uD83C\uDF31", "\uD83C\uDFED"],
+      skills: ["Industrial AI Systems", "Advanced Diagnostics", "Smart Manufacturing",
+        "Quality Control AI", "Process Optimization", "Renewable Energy Tech", "Robotics Oversight"]
     },
     Retail: {
-      icon: ["\uD83D\uDCCA","\uD83E\uDD1D","\uD83C\uDF10","\uD83D\uDCF1","\uD83C\uDFAF","\uD83D\uDCA1","\uD83D\uDD0D"],
-      skills: ["Customer Experience Design","AI-Driven Personalization","Omnichannel Strategy",
-        "Supply Chain Optimization","Brand Storytelling","Data Analytics","E-commerce Technology"]
+      icon: ["\uD83D\uDCCA", "\uD83E\uDD1D", "\uD83C\uDF10", "\uD83D\uDCF1", "\uD83C\uDFAF", "\uD83D\uDCA1", "\uD83D\uDD0D"],
+      skills: ["Customer Experience Design", "AI-Driven Personalization", "Omnichannel Strategy",
+        "Supply Chain Optimization", "Brand Storytelling", "Data Analytics", "E-commerce Technology"]
     },
     Government: {
-      icon: ["\uD83D\uDEE1\uFE0F","\uD83D\uDCCA","\uD83E\uDD1D","\u2696\uFE0F","\uD83D\uDCA1","\uD83C\uDF10","\uD83D\uDD12"],
-      skills: ["AI Policy & Governance","Digital Services Design","Stakeholder Communication",
-        "Ethical AI Implementation","Cybersecurity","Data Analytics","Change Management"]
+      icon: ["\uD83D\uDEE1\uFE0F", "\uD83D\uDCCA", "\uD83E\uDD1D", "\u2696\uFE0F", "\uD83D\uDCA1", "\uD83C\uDF10", "\uD83D\uDD12"],
+      skills: ["AI Policy & Governance", "Digital Services Design", "Stakeholder Communication",
+        "Ethical AI Implementation", "Cybersecurity", "Data Analytics", "Change Management"]
     },
     Creative: {
-      icon: ["\uD83C\uDFA8","\uD83D\uDCA1","\uD83D\uDCE1","\uD83C\uDF0D","\uD83C\uDFAC","\uD83E\uDD1D","\uD83C\uDFAF"],
-      skills: ["Creative Direction & Vision","AI Tool Mastery","Cultural Insight",
-        "Multimedia Production","Experiential Design","Brand Strategy","Audience Development"]
+      icon: ["\uD83C\uDFA8", "\uD83D\uDCA1", "\uD83D\uDCE1", "\uD83C\uDF0D", "\uD83C\uDFAC", "\uD83E\uDD1D", "\uD83C\uDFAF"],
+      skills: ["Creative Direction & Vision", "AI Tool Mastery", "Cultural Insight",
+        "Multimedia Production", "Experiential Design", "Brand Strategy", "Audience Development"]
     },
     Construction: {
-      icon: ["\uD83C\uDFD7\uFE0F","\uD83E\uDD16","\u26A1","\uD83D\uDCCA","\uD83D\uDD27","\uD83C\uDF31","\uD83D\uDCBC"],
-      skills: ["Smart Building Systems","Renewable Energy Tech","Advanced Diagnostics Tools",
-        "Project Management","BIM & Digital Twins","Entrepreneurship","Safety Tech"]
+      icon: ["\uD83C\uDFD7\uFE0F", "\uD83E\uDD16", "\u26A1", "\uD83D\uDCCA", "\uD83D\uDD27", "\uD83C\uDF31", "\uD83D\uDCBC"],
+      skills: ["Smart Building Systems", "Renewable Energy Tech", "Advanced Diagnostics Tools",
+        "Project Management", "BIM & Digital Twins", "Entrepreneurship", "Safety Tech"]
     },
     Transportation: {
-      icon: ["\uD83D\uDE80","\uD83D\uDCE1","\uD83D\uDD27","\uD83D\uDCCA","\uD83D\uDEE1\uFE0F","\uD83C\uDF31","\uD83D\uDCA1"],
-      skills: ["Autonomous Systems Oversight","Logistics Optimization","Predictive Maintenance",
-        "Fleet Management Tech","Safety & Compliance","Sustainability Tech","Last-Mile Innovation"]
+      icon: ["\uD83D\uDE80", "\uD83D\uDCE1", "\uD83D\uDD27", "\uD83D\uDCCA", "\uD83D\uDEE1\uFE0F", "\uD83C\uDF31", "\uD83D\uDCA1"],
+      skills: ["Autonomous Systems Oversight", "Logistics Optimization", "Predictive Maintenance",
+        "Fleet Management Tech", "Safety & Compliance", "Sustainability Tech", "Last-Mile Innovation"]
     },
     Other: {
-      icon: ["\uD83E\uDDE0","\uD83E\uDD1D","\uD83D\uDCCA","\uD83D\uDCA1","\uD83D\uDD0D","\uD83C\uDFAF","\u26A1"],
-      skills: ["AI Literacy & Prompt Engineering","Critical Thinking & Analysis","Emotional Intelligence",
-        "Creative Problem Solving","Adaptability & Resilience","Data Storytelling","Interdisciplinary Knowledge"]
+      icon: ["\uD83E\uDDE0", "\uD83E\uDD1D", "\uD83D\uDCCA", "\uD83D\uDCA1", "\uD83D\uDD0D", "\uD83C\uDFAF", "\u26A1"],
+      skills: ["AI Literacy & Prompt Engineering", "Critical Thinking & Analysis", "Emotional Intelligence",
+        "Creative Problem Solving", "Adaptability & Resilience", "Data Storytelling", "Interdisciplinary Knowledge"]
     }
   },
   expertQuotes: [
@@ -236,54 +236,54 @@ const RESEARCH = {
 // =============================================
 const JOB_LIST = [
   // Tech
-  "Software Engineer","Software Developer","Full Stack Developer","Frontend Developer",
-  "Backend Developer","Mobile Developer","iOS Developer","Android Developer",
-  "Data Scientist","Data Analyst","Data Engineer","Machine Learning Engineer",
-  "AI Engineer","DevOps Engineer","Cloud Engineer","Solutions Architect",
-  "Cybersecurity Analyst","Network Administrator","Systems Administrator",
-  "Database Administrator","IT Manager","Product Manager","QA Engineer",
-  "UX Designer","UI Designer","Product Designer","Graphic Designer",
-  "Web Developer","Game Developer","Site Reliability Engineer",
+  "Software Engineer", "Software Developer", "Full Stack Developer", "Frontend Developer",
+  "Backend Developer", "Mobile Developer", "iOS Developer", "Android Developer",
+  "Data Scientist", "Data Analyst", "Data Engineer", "Machine Learning Engineer",
+  "AI Engineer", "DevOps Engineer", "Cloud Engineer", "Solutions Architect",
+  "Cybersecurity Analyst", "Network Administrator", "Systems Administrator",
+  "Database Administrator", "IT Manager", "Product Manager", "QA Engineer",
+  "UX Designer", "UI Designer", "Product Designer", "Graphic Designer",
+  "Web Developer", "Game Developer", "Site Reliability Engineer",
   // Finance
-  "Financial Analyst","Accountant","Bookkeeper","Auditor","Tax Preparer",
-  "Financial Advisor","Investment Banker","Portfolio Manager","Risk Analyst",
-  "Insurance Underwriter","Loan Officer","Bank Teller","Claims Adjuster",
-  "Compliance Officer","Controller","CFO","Budget Analyst","Tax Specialist",
+  "Financial Analyst", "Accountant", "Bookkeeper", "Auditor", "Tax Preparer",
+  "Financial Advisor", "Investment Banker", "Portfolio Manager", "Risk Analyst",
+  "Insurance Underwriter", "Loan Officer", "Bank Teller", "Claims Adjuster",
+  "Compliance Officer", "Controller", "CFO", "Budget Analyst", "Tax Specialist",
   // Healthcare
-  "Nurse","Registered Nurse","Nurse Practitioner","Doctor","Physician","Surgeon",
-  "Dentist","Pharmacist","Physical Therapist","Occupational Therapist",
-  "Mental Health Counselor","Psychologist","Psychiatrist","Social Worker",
-  "Veterinarian","Paramedic","EMT","Radiologist","Pathologist","Neurologist",
-  "Dermatologist","Cardiologist","Anesthesiologist","Nurse Anesthetist",
+  "Nurse", "Registered Nurse", "Nurse Practitioner", "Doctor", "Physician", "Surgeon",
+  "Dentist", "Pharmacist", "Physical Therapist", "Occupational Therapist",
+  "Mental Health Counselor", "Psychologist", "Psychiatrist", "Social Worker",
+  "Veterinarian", "Paramedic", "EMT", "Radiologist", "Pathologist", "Neurologist",
+  "Dermatologist", "Cardiologist", "Anesthesiologist", "Nurse Anesthetist",
   // Legal & Business
-  "Lawyer","Attorney","Paralegal","Legal Secretary","Judge","Compliance Analyst",
-  "Management Consultant","Business Analyst","Operations Manager","CEO","COO",
-  "Project Manager","Program Manager","Scrum Master","Business Development Manager",
+  "Lawyer", "Attorney", "Paralegal", "Legal Secretary", "Judge", "Compliance Analyst",
+  "Management Consultant", "Business Analyst", "Operations Manager", "CEO", "COO",
+  "Project Manager", "Program Manager", "Scrum Master", "Business Development Manager",
   // Education
-  "Teacher","Professor","Lecturer","Curriculum Developer","School Counselor",
-  "Instructional Designer","Librarian","Tutor","Early Childhood Educator",
+  "Teacher", "Professor", "Lecturer", "Curriculum Developer", "School Counselor",
+  "Instructional Designer", "Librarian", "Tutor", "Early Childhood Educator",
   // Marketing & Creative
-  "Marketing Manager","Digital Marketer","SEO Specialist","Social Media Manager",
-  "Content Writer","Copywriter","Journalist","Reporter","Editor","Translator",
-  "Graphic Designer","Animator","Video Editor","Photographer","Art Director",
-  "Brand Manager","Communications Manager","PR Specialist","Event Planner",
+  "Marketing Manager", "Digital Marketer", "SEO Specialist", "Social Media Manager",
+  "Content Writer", "Copywriter", "Journalist", "Reporter", "Editor", "Translator",
+  "Graphic Designer", "Animator", "Video Editor", "Photographer", "Art Director",
+  "Brand Manager", "Communications Manager", "PR Specialist", "Event Planner",
   // Sales & CS
-  "Sales Representative","Account Executive","Account Manager","Sales Manager",
-  "Customer Service Representative","Call Center Agent","Retail Salesperson","Cashier",
+  "Sales Representative", "Account Executive", "Account Manager", "Sales Manager",
+  "Customer Service Representative", "Call Center Agent", "Retail Salesperson", "Cashier",
   // Trades & Physical
-  "Electrician","Plumber","HVAC Technician","Carpenter","Welder","Mechanic",
-  "Auto Technician","Crane Operator","Pilot","Chef","Head Chef","Sous Chef",
-  "Construction Manager","Architect","Civil Engineer","Mechanical Engineer",
-  "Electrical Engineer","Structural Engineer","Urban Planner",
+  "Electrician", "Plumber", "HVAC Technician", "Carpenter", "Welder", "Mechanic",
+  "Auto Technician", "Crane Operator", "Pilot", "Chef", "Head Chef", "Sous Chef",
+  "Construction Manager", "Architect", "Civil Engineer", "Mechanical Engineer",
+  "Electrical Engineer", "Structural Engineer", "Urban Planner",
   // Admin
-  "Administrative Assistant","Executive Assistant","Office Manager","Receptionist",
-  "Data Entry Clerk","Scheduler","Procurement Specialist","Logistics Coordinator",
+  "Administrative Assistant", "Executive Assistant", "Office Manager", "Receptionist",
+  "Data Entry Clerk", "Scheduler", "Procurement Specialist", "Logistics Coordinator",
   // Other
-  "Research Scientist","Epidemiologist","Environmental Scientist","Economist",
-  "Human Resources Manager","HR Specialist","Recruiter","Talent Acquisition",
-  "Supply Chain Manager","Operations Analyst","Financial Planner","Coach",
-  "Fitness Trainer","Athletic Trainer","Choreographer","Interior Designer",
-  "Fashion Designer","Landscape Architect","Technical Writer","Market Research Analyst"
+  "Research Scientist", "Epidemiologist", "Environmental Scientist", "Economist",
+  "Human Resources Manager", "HR Specialist", "Recruiter", "Talent Acquisition",
+  "Supply Chain Manager", "Operations Analyst", "Financial Planner", "Coach",
+  "Fitness Trainer", "Athletic Trainer", "Choreographer", "Interior Designer",
+  "Fashion Designer", "Landscape Architect", "Technical Writer", "Market Research Analyst"
 ];
 
 // =============================================
@@ -293,6 +293,91 @@ let currentPage = 'landing';
 let analysisResult = null;
 let leaderboardData = [];
 let userLeaderboardEntry = null;
+
+// =============================================
+// ASSESSMENT COUNTER (Feature 3)
+// =============================================
+const COUNTER_KEY = 'ai_analyzer_total_count';
+const COUNTER_SEED = 14287; // Starting seed so it looks populated
+
+function getAssessmentCount() {
+  const stored = parseInt(localStorage.getItem(COUNTER_KEY) || '0', 10);
+  return COUNTER_SEED + stored;
+}
+
+function incrementAssessmentCount() {
+  const current = parseInt(localStorage.getItem(COUNTER_KEY) || '0', 10);
+  localStorage.setItem(COUNTER_KEY, current + 1);
+  updateCounterDisplay();
+}
+
+function updateCounterDisplay() {
+  const count = getAssessmentCount();
+  const formatted = count.toLocaleString();
+  document.querySelectorAll('.live-counter-number').forEach(el => {
+    el.textContent = formatted;
+  });
+}
+
+function animateCounter(el, target) {
+  const duration = 1800;
+  const start = Math.max(0, target - 800);
+  const startTime = performance.now();
+  function step(now) {
+    const progress = Math.min((now - startTime) / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 3);
+    const current = Math.round(start + (target - start) * eased);
+    el.textContent = current.toLocaleString();
+    if (progress < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+// =============================================
+// URL PARAM ENCODING / DECODING (Feature 7)
+// =============================================
+function encodeResultsToURL(result) {
+  const params = new URLSearchParams({
+    role: result.jobTitle,
+    industry: result.industry,
+    score: result.score,
+    risk: result.category,
+    exp: result.experience,
+    sen: result.seniority,
+    ai: result.aiUsage
+  });
+  const url = `${window.location.origin}${window.location.pathname}?${params.toString()}`;
+  history.replaceState(null, '', `?${params.toString()}`);
+  return url;
+}
+
+function tryLoadFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  if (!params.has('score') || !params.has('role')) return false;
+  const jobTitle = params.get('role') || '';
+  const industry = params.get('industry') || 'Other';
+  const experience = params.get('exp') || '5';
+  const seniority = params.get('sen') || 'mid';
+  const aiUsage = params.get('ai') || 'occasionally';
+  const score = parseInt(params.get('score'), 10);
+  if (!jobTitle || isNaN(score)) return false;
+
+  // Recompute full result from params to ensure all fields present
+  analysisResult = calculateSurvival(jobTitle, experience, industry, seniority, aiUsage);
+  // Override score with the shared one for consistency
+  analysisResult.score = Math.max(3, Math.min(97, score));
+  analysisResult.jobTitle = jobTitle;
+  analysisResult.industry = industry;
+  analysisResult.experience = experience;
+  analysisResult.seniority = seniority;
+  analysisResult.aiUsage = aiUsage;
+
+  addToLeaderboard(analysisResult);
+  buildResults(analysisResult);
+  showPage('results');
+  animateResults();
+  return true;
+}
 
 // =============================================
 // PAGE NAVIGATION
@@ -385,22 +470,22 @@ function matchJobCategory(jobTitle) {
 
   // Keyword fallback matching
   const keywords = {
-    ultra_high_risk: ['data entry','bookkeep','clerk','receptionist','telemarket','secretary',
-      'typist','scheduler','filing','billing','payroll','dispatch','reservat'],
-    high_risk: ['customer service','call center','writer','journalist','report','translator',
-      'paralegal','sales rep','cashier','teller','copywriter','content','support agent',
-      'research analyst','underwriter','adjuster','announcer','dj','statistician'],
-    moderate_risk: ['software','developer','engineer','designer','analyst','manager','marketer',
-      'product','seo','social media','hr','human resource','recruit','consultant',
-      'accountant','auditor','editor','teacher','professor','instructor','programmer',
-      'devops','it ','information tech','finance','librarian','archivist','historian'],
-    low_risk: ['nurse','doctor','physician','surgeon','dentist','pharmacist','therapist',
-      'counselor','social work','psycholog','lawyer','attorney','detective','police',
-      'firefighter','paramedic','architect','civil eng','mechanical eng','electrical eng',
-      'cybersecurity','security analyst','veterinarian','scientist','epidemiol'],
-    very_low_risk: ['electrician','plumber','hvac','carpenter','welder','mechanic',
-      'pilot','chef','cook','childcare','daycare','preschool','kindergarten',
-      'anesthes','coach','trainer','choreograph','heavy equip','crane op']
+    ultra_high_risk: ['data entry', 'bookkeep', 'clerk', 'receptionist', 'telemarket', 'secretary',
+      'typist', 'scheduler', 'filing', 'billing', 'payroll', 'dispatch', 'reservat'],
+    high_risk: ['customer service', 'call center', 'writer', 'journalist', 'report', 'translator',
+      'paralegal', 'sales rep', 'cashier', 'teller', 'copywriter', 'content', 'support agent',
+      'research analyst', 'underwriter', 'adjuster', 'announcer', 'dj', 'statistician'],
+    moderate_risk: ['software', 'developer', 'engineer', 'designer', 'analyst', 'manager', 'marketer',
+      'product', 'seo', 'social media', 'hr', 'human resource', 'recruit', 'consultant',
+      'accountant', 'auditor', 'editor', 'teacher', 'professor', 'instructor', 'programmer',
+      'devops', 'it ', 'information tech', 'finance', 'librarian', 'archivist', 'historian'],
+    low_risk: ['nurse', 'doctor', 'physician', 'surgeon', 'dentist', 'pharmacist', 'therapist',
+      'counselor', 'social work', 'psycholog', 'lawyer', 'attorney', 'detective', 'police',
+      'firefighter', 'paramedic', 'architect', 'civil eng', 'mechanical eng', 'electrical eng',
+      'cybersecurity', 'security analyst', 'veterinarian', 'scientist', 'epidemiol'],
+    very_low_risk: ['electrician', 'plumber', 'hvac', 'carpenter', 'welder', 'mechanic',
+      'pilot', 'chef', 'cook', 'childcare', 'daycare', 'preschool', 'kindergarten',
+      'anesthes', 'coach', 'trainer', 'choreograph', 'heavy equip', 'crane op']
   };
 
   for (const [cat, kws] of Object.entries(keywords)) {
@@ -543,33 +628,33 @@ function runAnalysis() {
   const industry = document.getElementById('industry').value;
   const seniorityChecked = document.querySelector('input[name="seniority"]:checked');
   const aiUsageChecked = document.querySelector('input[name="aiUsage"]:checked');
-  
+
   // Clear previous validation errors
   clearValidationErrors();
-  
+
   // Validate all required fields
   const errors = [];
-  
+
   if (!jobTitle) {
     errors.push({ field: 'jobTitle', message: 'Please enter your job title' });
     showFieldError('jobTitle');
   }
-  
+
   if (!industry) {
     errors.push({ field: 'industry', message: 'Please select your industry' });
     showFieldError('industry');
   }
-  
+
   if (!seniorityChecked) {
     errors.push({ field: 'seniorityControl', message: 'Please select your seniority level' });
     showFieldError('seniorityControl');
   }
-  
+
   if (!aiUsageChecked) {
     errors.push({ field: 'aiUsageControl', message: 'Please select your AI tool usage' });
     showFieldError('aiUsageControl');
   }
-  
+
   // If there are errors, show notification and scroll to first error
   if (errors.length > 0) {
     showValidationNotification(errors);
@@ -579,7 +664,7 @@ function runAnalysis() {
     }
     return;
   }
-  
+
   const seniority = seniorityChecked.value;
   const aiUsage = aiUsageChecked.value;
 
@@ -591,8 +676,14 @@ function runAnalysis() {
   analysisResult.seniority = seniority;
   analysisResult.aiUsage = aiUsage;
 
+  // Increment counter
+  incrementAssessmentCount();
+
   // Add to leaderboard
   addToLeaderboard(analysisResult);
+
+  // Encode result to URL (Feature 7)
+  encodeResultsToURL(analysisResult);
 
   // Show results directly (loading page removed)
   buildResults(analysisResult);
@@ -614,8 +705,8 @@ function buildResults(r) {
 
   // Score gauge color
   const gaugeColor = r.score < 35 ? '#C45D3E' :
-                     r.score < 55 ? '#C49A3C' :
-                     r.score < 75 ? '#5A7A5E' : '#2C3E50';
+    r.score < 55 ? '#C49A3C' :
+      r.score < 75 ? '#5A7A5E' : '#2C3E50';
 
   const gaugeFill = document.getElementById('gaugeFill');
   const gaugeNumber = document.getElementById('gaugeNumber');
@@ -635,11 +726,27 @@ function buildResults(r) {
   const riskExp = document.getElementById('riskExplanation');
   if (riskExp) riskExp.textContent = r.riskExplanation;
 
-  // Position risk marker (score 0-100 \u2192 left 0-100%)
+  // Position risk marker — map category to center of its zone on the 4-zone bar
+  // Zones (left→right): High(0-25%), Moderate(25-50%), Low(50-75%), Resilient(75-100%)
   const riskMarker = document.getElementById('riskMarker');
   if (riskMarker) {
-    // Invert: score 100 = most resilient (right), score 0 = most at risk (left)
-    const leftPct = (r.score / 100) * 100;
+    const zoneCenters = {
+      ultra_high_risk: 12.5,
+      high_risk: 37.5,
+      moderate_risk: 50,    // left edge of low — shift slightly left of center
+      low_risk: 62.5,
+      very_low_risk: 87.5
+    };
+    // Add a small offset within the zone based on score to give subtle variation
+    const zoneWidth = 25;
+    const cat = r.category;
+    const center = zoneCenters[cat] ?? 50;
+    // Map the score within its survival range to ±8% offset inside the zone
+    const catData = RESEARCH.jobCategories[cat];
+    const [minS, maxS] = catData.survival_range;
+    const normalized = maxS > minS ? (r.score - minS) / (maxS - minS) : 0.5;
+    const offset = (normalized - 0.5) * (zoneWidth * 0.5);
+    const leftPct = Math.max(5, Math.min(95, center + offset));
     riskMarker.style.left = leftPct + '%';
     const markerLabel = document.getElementById('riskMarkerLabel');
     if (markerLabel) markerLabel.textContent = r.jobTitle;
@@ -669,10 +776,10 @@ function buildFutures(r) {
   const maxProb = Math.max(...probs);
 
   const futures = [
-    { key: 'best',   prob: bestProb,   nameColor: '#5A7A5E' },
+    { key: 'best', prob: bestProb, nameColor: '#5A7A5E' },
     { key: 'likely', prob: likelyProb, nameColor: '#2C3E50' },
-    { key: 'bad',    prob: badProb,    nameColor: '#C49A3C' },
-    { key: 'worst',  prob: worstProb,  nameColor: '#C45D3E' }
+    { key: 'bad', prob: badProb, nameColor: '#C49A3C' },
+    { key: 'worst', prob: worstProb, nameColor: '#C45D3E' }
   ];
 
   grid.innerHTML = futures.map(f => {
@@ -693,7 +800,7 @@ function buildSkills(r) {
   const industry = r.industry || 'Other';
   const industryData = RESEARCH.skillsByIndustry[industry] || RESEARCH.skillsByIndustry.Other;
 
-  const priorities = ['CRITICAL','CRITICAL','HIGH','HIGH','RECOMMENDED','RECOMMENDED','RECOMMENDED'];
+  const priorities = ['CRITICAL', 'CRITICAL', 'HIGH', 'HIGH', 'RECOMMENDED', 'RECOMMENDED', 'RECOMMENDED'];
   const priorityClass = { CRITICAL: 'priority-critical', HIGH: 'priority-high', RECOMMENDED: 'priority-recommended' };
 
   const skillDescriptions = {
@@ -823,15 +930,28 @@ function buildShareCard(r) {
   const topSkills = (RESEARCH.skillsByIndustry[industry] || RESEARCH.skillsByIndustry.Other).skills.slice(0, 3).join(', ');
 
   const shareText =
-`AI Resilience Score: ${r.score}% \u2014 ${r.jobTitle} (${industry})
+    `AI Resilience Score: ${r.score}% \u2014 ${r.jobTitle} (${industry})
 Risk Assessment: ${r.threatLevel}
 Most Likely Outcome: ${likelyScenario} (${maxProb}%)
 Recommended Skills: ${topSkills}
 
-Assessed using the AI Job Impact Analyzer \u2014 evidence-based career analysis from WEF, Goldman Sachs, McKinsey & OpenAI research.`;
+Assessed using the AI Job Impact Analyzer \u2014 evidence-based career analysis from WEF, Goldman Sachs, McKinsey & OpenAI research.
+${window.location.href}`;
 
   document.getElementById('shareContent').textContent = shareText;
   window._shareText = shareText;
+  window._shareResult = r;
+
+  // Build social share tweet/linkedin text (Feature 4)
+  const tweetText = encodeURIComponent(`My ${r.jobTitle} job has a ${r.score}% AI resilience score — ${r.threatLevel}. Check yours 👇`);
+  const shareUrl = encodeURIComponent(window.location.href);
+  const twitterUrl = `https://twitter.com/intent/tweet?text=${tweetText}&url=${shareUrl}`;
+  const linkedinUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}`;
+
+  const twitterBtn = document.getElementById('shareTwitterBtn');
+  const linkedinBtn = document.getElementById('shareLinkedinBtn');
+  if (twitterBtn) twitterBtn.href = twitterUrl;
+  if (linkedinBtn) linkedinBtn.href = linkedinUrl;
 }
 
 // =============================================
@@ -851,7 +971,7 @@ function drawSalaryChart(best, worst) {
   const chartW = W - padL - padR;
   const chartH = H - padT - padB;
 
-  const bestData  = [0, best * 0.2, best * 0.5, best * 0.8, best];
+  const bestData = [0, best * 0.2, best * 0.5, best * 0.8, best];
   const worstData = [0, worst * 0.3, worst * 0.65, worst * 0.85, worst];
 
   const allVals = [...bestData, ...worstData, 0];
@@ -1076,29 +1196,61 @@ function showCopyConfirm() {
 // LEADERBOARD
 // =============================================
 const SEED_ENTRIES = [
-  { jobTitle: "Data Entry Clerk",        industry: "Finance",        score: 8,  category: "ultra_high_risk" },
-  { jobTitle: "Telemarketer",            industry: "Retail",         score: 12, category: "ultra_high_risk" },
-  { jobTitle: "Legal Secretary",         industry: "Legal",          score: 18, category: "ultra_high_risk" },
-  { jobTitle: "Bookkeeper",              industry: "Finance",        score: 22, category: "ultra_high_risk" },
-  { jobTitle: "Customer Service Rep",    industry: "Retail",         score: 27, category: "high_risk" },
-  { jobTitle: "Content Writer",          industry: "Marketing",      score: 31, category: "high_risk" },
-  { jobTitle: "Market Research Analyst", industry: "Marketing",      score: 35, category: "high_risk" },
-  { jobTitle: "Paralegal",               industry: "Legal",          score: 38, category: "high_risk" },
-  { jobTitle: "Financial Analyst",       industry: "Finance",        score: 43, category: "moderate_risk" },
-  { jobTitle: "Social Media Manager",    industry: "Marketing",      score: 46, category: "moderate_risk" },
-  { jobTitle: "Software Developer",      industry: "Technology",     score: 52, category: "moderate_risk" },
-  { jobTitle: "Product Manager",         industry: "Technology",     score: 56, category: "moderate_risk" },
-  { jobTitle: "Data Scientist",          industry: "Technology",     score: 58, category: "moderate_risk" },
-  { jobTitle: "UX Designer",             industry: "Technology",     score: 61, category: "moderate_risk" },
-  { jobTitle: "Cybersecurity Analyst",   industry: "Technology",     score: 68, category: "low_risk" },
-  { jobTitle: "Registered Nurse",        industry: "Healthcare",     score: 72, category: "low_risk" },
-  { jobTitle: "Mechanical Engineer",     industry: "Manufacturing",  score: 74, category: "low_risk" },
-  { jobTitle: "Surgeon",                 industry: "Healthcare",     score: 79, category: "low_risk" },
-  { jobTitle: "Electrician",             industry: "Construction",   score: 85, category: "very_low_risk" },
-  { jobTitle: "Plumber",                 industry: "Construction",   score: 87, category: "very_low_risk" },
-  { jobTitle: "HVAC Technician",         industry: "Construction",   score: 89, category: "very_low_risk" },
-  { jobTitle: "Emergency Physician",     industry: "Healthcare",     score: 91, category: "very_low_risk" },
+  { jobTitle: "Data Entry Clerk", industry: "Finance", score: 8, category: "ultra_high_risk" },
+  { jobTitle: "Telemarketer", industry: "Retail", score: 12, category: "ultra_high_risk" },
+  { jobTitle: "Legal Secretary", industry: "Legal", score: 18, category: "ultra_high_risk" },
+  { jobTitle: "Bookkeeper", industry: "Finance", score: 22, category: "ultra_high_risk" },
+  { jobTitle: "Customer Service Rep", industry: "Retail", score: 27, category: "high_risk" },
+  { jobTitle: "Content Writer", industry: "Marketing", score: 31, category: "high_risk" },
+  { jobTitle: "Market Research Analyst", industry: "Marketing", score: 35, category: "high_risk" },
+  { jobTitle: "Paralegal", industry: "Legal", score: 38, category: "high_risk" },
+  { jobTitle: "Financial Analyst", industry: "Finance", score: 43, category: "moderate_risk" },
+  { jobTitle: "Social Media Manager", industry: "Marketing", score: 46, category: "moderate_risk" },
+  { jobTitle: "Software Developer", industry: "Technology", score: 52, category: "moderate_risk" },
+  { jobTitle: "Product Manager", industry: "Technology", score: 56, category: "moderate_risk" },
+  { jobTitle: "Data Scientist", industry: "Technology", score: 58, category: "moderate_risk" },
+  { jobTitle: "UX Designer", industry: "Technology", score: 61, category: "moderate_risk" },
+  { jobTitle: "Cybersecurity Analyst", industry: "Technology", score: 68, category: "low_risk" },
+  { jobTitle: "Registered Nurse", industry: "Healthcare", score: 72, category: "low_risk" },
+  { jobTitle: "Mechanical Engineer", industry: "Manufacturing", score: 74, category: "low_risk" },
+  { jobTitle: "Surgeon", industry: "Healthcare", score: 79, category: "low_risk" },
+  { jobTitle: "Electrician", industry: "Construction", score: 85, category: "very_low_risk" },
+  { jobTitle: "Plumber", industry: "Construction", score: 87, category: "very_low_risk" },
+  { jobTitle: "HVAC Technician", industry: "Construction", score: 89, category: "very_low_risk" },
+  { jobTitle: "Emergency Physician", industry: "Healthcare", score: 91, category: "very_low_risk" },
 ];
+
+// Trending role view counts (Feature 8)
+const TRENDING_VIEWS_KEY = 'ai_analyzer_role_views';
+
+function getRoleViews() {
+  try { return JSON.parse(localStorage.getItem(TRENDING_VIEWS_KEY) || '{}'); } catch { return {}; }
+}
+
+function recordRoleView(jobTitle) {
+  const views = getRoleViews();
+  const key = jobTitle.toLowerCase().trim();
+  views[key] = (views[key] || 0) + 1;
+  localStorage.setItem(TRENDING_VIEWS_KEY, JSON.stringify(views));
+}
+
+function getTrendingRoles() {
+  const views = getRoleViews();
+  // Seed with some base counts so there are always trends
+  const seedViews = {
+    'software developer': 892, 'registered nurse': 743, 'data entry clerk': 621,
+    'financial analyst': 584, 'customer service rep': 511, 'product manager': 467,
+    'content writer': 398, 'electrician': 334, 'ux designer': 312, 'paralegal': 289
+  };
+  const merged = { ...seedViews };
+  for (const [k, v] of Object.entries(views)) {
+    merged[k] = (merged[k] || 0) + v;
+  }
+  return Object.entries(merged)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3)
+    .map(([role]) => role);
+}
 
 function initLeaderboard() {
   leaderboardData = SEED_ENTRIES.map((e, i) => ({ ...e, id: i, isUser: false }));
@@ -1140,14 +1292,18 @@ function renderLeaderboard(filter) {
   else if (filter === 'doomed') data.sort((a, b) => a.score - b.score);
   else data.sort((a, b) => b.score - a.score);
 
+  const trendingRoles = getTrendingRoles();
+
   const tbody = document.getElementById('leaderboardBody');
   tbody.innerHTML = data.map((entry, i) => {
     const rank = i + 1;
     const color = getScoreColor(entry.score);
+    const isTrending = trendingRoles.includes(entry.jobTitle.toLowerCase().trim());
+    const trendBadge = isTrending ? '<span class="lb-trending-badge">🔥 Trending</span>' : '';
     return `
       <tr class="${entry.isUser ? 'user-row' : ''}">
         <td><span class="lb-rank ${rank <= 3 ? 'top3' : ''}">${rank}</span></td>
-        <td class="lb-job">${entry.jobTitle}${entry.isUser ? ' &nbsp;<span style="font-size:0.7rem;font-weight:700;color:#C45D3E;letter-spacing:0.06em;text-transform:uppercase;">YOU</span>' : ''}</td>
+        <td class="lb-job">${entry.jobTitle}${trendBadge}${entry.isUser ? ' &nbsp;<span style="font-size:0.7rem;font-weight:700;color:#C45D3E;letter-spacing:0.06em;text-transform:uppercase;">YOU</span>' : ''}</td>
         <td>${entry.industry}</td>
         <td class="lb-survival" style="color:${color}">${entry.score}%</td>
         <td>${getResilienceBadge(entry.score)}</td>
@@ -1163,6 +1319,147 @@ function filterLeaderboard(mode, btn) {
 }
 
 // =============================================
+// IMAGE DOWNLOAD CARD (Feature 1)
+// =============================================
+function downloadResultImage() {
+  const r = window._shareResult;
+  if (!r) return;
+
+  const W = 1200, H = 630;
+  const canvas = document.createElement('canvas');
+  canvas.width = W;
+  canvas.height = H;
+  const ctx = canvas.getContext('2d');
+
+  // Background gradient
+  const bg = ctx.createLinearGradient(0, 0, W, H);
+  bg.addColorStop(0, '#1A1208');
+  bg.addColorStop(1, '#0D1A12');
+  ctx.fillStyle = bg;
+  ctx.fillRect(0, 0, W, H);
+
+  // Decorative circle
+  ctx.beginPath();
+  ctx.arc(W - 120, 100, 260, 0, Math.PI * 2);
+  ctx.fillStyle = 'rgba(90,122,94,0.07)';
+  ctx.fill();
+  ctx.beginPath();
+  ctx.arc(80, H - 60, 180, 0, Math.PI * 2);
+  ctx.fillStyle = 'rgba(196,93,62,0.06)';
+  ctx.fill();
+
+  // Score colors
+  const scoreColor = r.score < 35 ? '#E07556' : r.score < 55 ? '#D4A843' : r.score < 75 ? '#6A9E6E' : '#4A7A8A';
+
+  // Eyebrow
+  ctx.fillStyle = 'rgba(255,255,255,0.35)';
+  ctx.font = '500 22px sans-serif';
+  ctx.textAlign = 'left';
+  ctx.fillText('AI JOB IMPACT ANALYZER · EVIDENCE-BASED ASSESSMENT', 80, 72);
+
+  // Job title
+  ctx.fillStyle = '#F5F0E8';
+  ctx.font = `700 ${r.jobTitle.length > 24 ? 54 : 68}px sans-serif`;
+  ctx.fillText(r.jobTitle, 80, 165);
+
+  // Industry tag
+  const tag = `  ${r.industry}  `;
+  ctx.font = '500 20px sans-serif';
+  const tagW = ctx.measureText(tag).width + 24;
+  ctx.fillStyle = 'rgba(255,255,255,0.08)';
+  roundRect(ctx, 80, 185, tagW, 38, 6);
+  ctx.fill();
+  ctx.fillStyle = 'rgba(255,255,255,0.55)';
+  ctx.fillText(tag, 80 + 12, 209);
+
+  // Divider
+  ctx.strokeStyle = 'rgba(255,255,255,0.1)';
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(80, 248);
+  ctx.lineTo(W - 80, 248);
+  ctx.stroke();
+
+  // Big score
+  ctx.font = '800 160px sans-serif';
+  ctx.fillStyle = scoreColor;
+  ctx.textAlign = 'left';
+  ctx.fillText(`${r.score}%`, 80, 430);
+
+  // Score label
+  ctx.font = '600 26px sans-serif';
+  ctx.fillStyle = 'rgba(255,255,255,0.5)';
+  ctx.fillText('AI RESILIENCE SCORE', 80, 468);
+
+  // Risk badge
+  ctx.font = '700 24px sans-serif';
+  const badgeW = ctx.measureText(r.threatLevel).width + 40;
+  ctx.fillStyle = scoreColor + '22';
+  roundRect(ctx, 80, 492, badgeW, 44, 8);
+  ctx.fill();
+  ctx.fillStyle = scoreColor;
+  ctx.fillText(r.threatLevel, 80 + 20, 520);
+
+  // Right panel — scenario breakdown
+  const panelX = 700;
+  ctx.textAlign = 'left';
+  ctx.fillStyle = 'rgba(255,255,255,0.3)';
+  ctx.font = '600 18px sans-serif';
+  ctx.fillText('SCENARIO BREAKDOWN', panelX, 300);
+
+  const scenarioItems = [
+    { label: 'AI-Augmented Growth', prob: r.scenarios.bestProb, color: '#6A9E6E' },
+    { label: 'Role Transformation', prob: r.scenarios.likelyProb, color: '#8AACB8' },
+    { label: 'Significant Disruption', prob: r.scenarios.badProb, color: '#D4A843' },
+    { label: 'Full Displacement', prob: r.scenarios.worstProb, color: '#E07556' },
+  ];
+  scenarioItems.forEach((s, i) => {
+    const y = 336 + i * 66;
+    // Bar bg
+    ctx.fillStyle = 'rgba(255,255,255,0.05)';
+    roundRect(ctx, panelX, y, 420, 48, 6);
+    ctx.fill();
+    // Bar fill
+    ctx.fillStyle = s.color + '55';
+    roundRect(ctx, panelX, y, Math.max(8, 420 * s.prob / 100), 48, 6);
+    ctx.fill();
+    // Label
+    ctx.fillStyle = '#F5F0E8';
+    ctx.font = '500 17px sans-serif';
+    ctx.fillText(s.label, panelX + 12, y + 22);
+    ctx.fillStyle = s.color;
+    ctx.font = '700 22px sans-serif';
+    ctx.fillText(`${s.prob}%`, panelX + 12, y + 42);
+  });
+
+  // Footer
+  ctx.fillStyle = 'rgba(255,255,255,0.2)';
+  ctx.font = '400 18px sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('aijobimpact.com · Evidence-based career analysis from WEF, Goldman Sachs, McKinsey & OpenAI research', W / 2, H - 28);
+
+  // Download
+  const link = document.createElement('a');
+  link.download = `ai-resilience-${r.jobTitle.replace(/\s+/g, '-').toLowerCase()}.png`;
+  link.href = canvas.toDataURL('image/png');
+  link.click();
+}
+
+function roundRect(ctx, x, y, w, h, r) {
+  ctx.beginPath();
+  ctx.moveTo(x + r, y);
+  ctx.lineTo(x + w - r, y);
+  ctx.arcTo(x + w, y, x + w, y + r, r);
+  ctx.lineTo(x + w, y + h - r);
+  ctx.arcTo(x + w, y + h, x + w - r, y + h, r);
+  ctx.lineTo(x + r, y + h);
+  ctx.arcTo(x, y + h, x, y + h - r, r);
+  ctx.lineTo(x, y + r);
+  ctx.arcTo(x, y, x + r, y, r);
+  ctx.closePath();
+}
+
+// =============================================
 // INIT
 // =============================================
 document.addEventListener('DOMContentLoaded', () => {
@@ -1172,6 +1469,16 @@ document.addEventListener('DOMContentLoaded', () => {
   // Initialize slider
   const slider = document.getElementById('experience');
   if (slider) updateSlider(slider);
+
+  // Initialize counter display
+  updateCounterDisplay();
+  const counterEls = document.querySelectorAll('.live-counter-number');
+  counterEls.forEach(el => animateCounter(el, getAssessmentCount()));
+
+  // Try to load from URL params (shared result)
+  if (window.location.search) {
+    tryLoadFromURL();
+  }
 });
 
 // =============================================
@@ -1180,13 +1487,13 @@ document.addEventListener('DOMContentLoaded', () => {
 function showFieldError(fieldId) {
   const field = document.getElementById(fieldId);
   if (!field) return;
-  
+
   // For input/select elements, add error class to parent field-group
   const fieldGroup = field.closest('.field-group');
   if (fieldGroup) {
     fieldGroup.classList.add('field-error');
   }
-  
+
   // For segmented controls, add error class directly
   if (fieldId === 'seniorityControl' || fieldId === 'aiUsageControl') {
     field.classList.add('control-error');
@@ -1198,12 +1505,12 @@ function clearValidationErrors() {
   document.querySelectorAll('.field-group.field-error').forEach(el => {
     el.classList.remove('field-error');
   });
-  
+
   // Remove error classes from segmented controls
   document.querySelectorAll('.segmented-control.control-error').forEach(el => {
     el.classList.remove('control-error');
   });
-  
+
   // Remove any existing notification
   const existingNotification = document.querySelector('.validation-notification');
   if (existingNotification) {
@@ -1215,11 +1522,11 @@ function showValidationNotification(errors) {
   // Remove any existing notification
   const existing = document.querySelector('.validation-notification');
   if (existing) existing.remove();
-  
+
   // Create notification element
   const notification = document.createElement('div');
   notification.className = 'validation-notification';
-  
+
   const errorList = errors.map(e => e.message).join(', ');
   notification.innerHTML = `
     <div class="validation-notification-content">
@@ -1237,13 +1544,13 @@ function showValidationNotification(errors) {
       </button>
     </div>
   `;
-  
+
   // Insert at top of form card
   const formCard = document.querySelector('.form-card');
   if (formCard) {
     formCard.insertBefore(notification, formCard.firstChild);
   }
-  
+
   // Auto-dismiss after 6 seconds
   setTimeout(() => {
     if (notification.parentElement) {
@@ -1260,3 +1567,4 @@ window.updateSlider = updateSlider;
 window.runAnalysis = runAnalysis;
 window.copyShareText = copyShareText;
 window.filterLeaderboard = filterLeaderboard;
+window.downloadResultImage = downloadResultImage;
