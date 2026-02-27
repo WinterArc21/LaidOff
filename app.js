@@ -936,15 +936,16 @@ Most Likely Outcome: ${likelyScenario} (${maxProb}%)
 Recommended Skills: ${topSkills}
 
 Assessed using the AI Job Impact Analyzer \u2014 evidence-based career analysis from WEF, Goldman Sachs, McKinsey & OpenAI research.
-${window.location.href}`;
+laidoff.vercel.app`;
 
   document.getElementById('shareContent').textContent = shareText;
   window._shareText = shareText;
   window._shareResult = r;
 
   // Build social share tweet/linkedin text (Feature 4)
-  const tweetText = encodeURIComponent(`My ${r.jobTitle} job has a ${r.score}% AI resilience score — ${r.threatLevel}. Check yours 👇`);
-  const shareUrl = encodeURIComponent(window.location.href);
+  const SITE_URL = 'https://laidoff.vercel.app';
+  const tweetText = encodeURIComponent(`My ${r.jobTitle} job has a ${r.score}% AI resilience score \u2014 ${r.threatLevel}. Check yours \ud83d\udc47`);
+  const shareUrl = encodeURIComponent(SITE_URL);
   const twitterUrl = `https://twitter.com/intent/tweet?text=${tweetText}&url=${shareUrl}`;
   const linkedinUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}`;
 
