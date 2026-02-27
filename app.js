@@ -1432,12 +1432,6 @@ function downloadResultImage() {
     ctx.fillText(`${s.prob}%`, panelX + 12, y + 42);
   });
 
-  // Footer
-  ctx.fillStyle = 'rgba(255,255,255,0.2)';
-  ctx.font = '400 18px sans-serif';
-  ctx.textAlign = 'center';
-  ctx.fillText('aijobimpact.com · Evidence-based career analysis from WEF, Goldman Sachs, McKinsey & OpenAI research', W / 2, H - 28);
-
   // Download
   const link = document.createElement('a');
   link.download = `ai-resilience-${r.jobTitle.replace(/\s+/g, '-').toLowerCase()}.png`;
